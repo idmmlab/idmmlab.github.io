@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/al-folio/";
@@ -22,6 +22,20 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/publications/";
+          },
+        },{id: "nav-research",
+          title: "Research",
+          description: "Our work spans three intertwined research directions.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio/research/";
+          },
+        },{id: "nav-people",
+          title: "People",
+          description: "Members of the IDMM Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio/people/";
           },
         },{id: "nav-projects",
           title: "projects",
@@ -440,16 +454,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/al-folio/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/al-folio/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-prof-kang-hyun-lee-joined-the-school-of-mechanical-engineering-at-soongsil-university-as-assistant-professor-after-a-postdoctoral-appointment-at-mit",
+          title: 'Prof. Kang-Hyun Lee joined the School of Mechanical Engineering at Soongsil University as...',
+          description: "",
+          section: "News",},{id: "news-idmm-lab-officially-launched-at-the-school-of-mechanical-engineering-soongsil-university-we-are-actively-recruiting-graduate-students-and-undergraduate-researchers-see-join-us",
+          title: 'IDMM Lab officially launched at the School of Mechanical Engineering, Soongsil University. We...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
