@@ -6,7 +6,7 @@ subtitle: <strong>I</strong>ntelligent <strong>D</strong>esign for <strong>M</st
 
 profile:
   align: right
-  image: lab_hero.jpg
+  image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p><strong>IDMM Lab</strong></p>
