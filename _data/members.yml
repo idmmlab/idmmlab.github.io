@@ -1,25 +1,17 @@
 # -----------------------------------------------------------------------------
 # _data/members.yml
-# IDMM Lab members. Edit this file to add / remove people.
+# IDMM Lab members.
 # -----------------------------------------------------------------------------
-# 사진은 assets/img/people/ 폴더에 저장하고 경로를 적어주세요.
-# 이미지가 없으면 photo 항목을 비워두시면 placeholder.jpg가 표시됩니다.
 
-grad_students:
-  # 예시 — 실제 학생 들어오면 이 블록을 복사해서 추가하세요.
-  # - name: Hong Gildong
-  #   position: Ph.D. Student (2026~)
-  #   photo: /assets/img/people/gildong.jpg
-  #   email: gildong@ssu.ac.kr
-  #   interests: Generative design, metal AM
+grad_students: []
+undergrads: []
+alumni: []
 
-undergrads:
-  # - name: Kim Cheolsu
-  #   position: Undergraduate Researcher (2026~)
-  #   interests: Multiphysics simulation
-
-alumni:
-  # - name: Lee Younghee
-  #   degree: M.S.
-  #   year: 2028
-  #   next: PhD student at [university]
+# 실제 멤버 들어오면 위 빈 배열([]) 대신 아래 형식으로 추가:
+#
+# grad_students:
+#   - name: Hong Gildong
+#     position: Ph.D. Student (2026~)
+#     photo: /assets/img/people/gildong.jpg
+#     email: gildong@ssu.ac.kr
+#     interests: Generative design, metal AM
