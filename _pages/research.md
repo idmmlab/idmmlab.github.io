@@ -27,7 +27,7 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
     <div class="collapse" id="thrust1-detail">
       <div class="card-body border-top">
         <img src="{{ '/assets/img/GenAI_design.png' | relative_url }}" alt="Generative AI for Design" class="thrust-detail-img">
-        <p><strong>Overview.</strong> We build generative models — diffusion, autoregressive, and graph-based — that learn from physics simulations and existing designs to propose new geometries, lattice topologies, and material distributions. Unlike pure shape generation, our outputs are conditioned on engineering targets (stiffness, weight, manufacturability) and on process constraints.</p>
+        <p><strong>Overview.</strong> We build generative models — diffusion, autoregressive, and graph-based — that learn from physics simulations and existing designs to propose new geometries, lattice topologies, and material distributions. Unlike pure shape generation, our outputs are conditioned on engineering targets (stiffness, weight, thermal margin, finite life, manufacturability) and on process constraints.</p>
         <p class="mb-2"><strong>Key topics.</strong></p>
         <ul class="mb-0">
           <li>Physics-guided generative models</li>
