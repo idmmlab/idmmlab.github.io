@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-team",
           title: "Team",
-          description: "Members of the IDMM Lab.",
+          description: "Members of the IDMM Lab (지능형 소재 및 제조 설계 연구실).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/idmmlab.github.io/team/";
