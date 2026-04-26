@@ -25,7 +25,12 @@ let setThemeSetting = (themeSetting) => {
 let applyTheme = () => {
   let theme = determineComputedTheme();
 
-  transTheme();
+  // transTheme() adds an html.transition class that turns on a 750ms
+  // global "transition: all" rule (defined in _sass/_utilities.scss).
+  // The IDMM Lab fork hides the dark/light toggle, so this fade is
+  // never user-driven; on initial page load it manifests as the body
+  // content visibly sliding into position. Skip it.
+  // transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
   setSearchTheme(theme);

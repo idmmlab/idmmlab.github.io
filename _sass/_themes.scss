@@ -30,7 +30,7 @@
   // Navbar-specific tokens. Kept separate from --global-bg-color /
   // --global-text-color so the navbar can be navy with white text without
   // affecting the page body.
-  --global-navbar-bg-color:     #1E3A8A;
+  --global-navbar-bg-color:     #0B1F4D;
   --global-navbar-text-color:   #ffffff;
   --global-navbar-hover-color:  #BFDBFE;
   --global-navbar-active-color: #ffffff;
@@ -75,7 +75,7 @@ html[data-theme="dark"] {
   --global-newsletter-bg-color:    #424246;
   --global-newsletter-text-color:  #ffffff;
 
-  --global-navbar-bg-color:     #0F1E5C;
+  --global-navbar-bg-color:     #050E2E;
   --global-navbar-text-color:   #ffffff;
   --global-navbar-hover-color:  #93C5FD;
   --global-navbar-active-color: #ffffff;
@@ -169,14 +169,27 @@ html[data-theme="dark"] {
   display: block;
 }
 
-// Home hero banner (front_page.png) shown full-width at the top of the
-// home page body in place of the old text title / subtitle / corner logo.
+// Home hero banner shown full-width at the top of the home page body in
+// place of the old text title / subtitle / corner logo. Pull the image
+// up against the navbar by zeroing the body's normal top spacing on the
+// home page only, so there is no visible gap between the navy navbar
+// and the figure.
 .home-hero-banner {
   display: block;
   width: 100%;
   height: auto;
   margin: 0 0 1.5rem 0;
   border-radius: 6px;
+}
+
+body.layout-about .post,
+.post:has(> article > .home-hero-banner) {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.home-hero-banner {
+  margin-top: 0 !important;
 }
 
 // Research thrust card header — tighten the colored band so it scales
@@ -206,7 +219,7 @@ html[data-theme="dark"] {
   width: 100% !important;
   height: auto !important;
   max-width: 100% !important;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
   display: block;
   margin: 0;
