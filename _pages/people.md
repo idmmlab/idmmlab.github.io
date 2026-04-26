@@ -68,6 +68,19 @@ nav_order: 2
       <li><strong>Invited Talk</strong> (Early Career Researcher), Korean Society for Aeronautical and Space Sciences (KSAS) Workshop, 2025. <em>Multiphysics Modeling for PSP Linkages in Metal Additive Manufacturing.</em></li>
       <li><strong>Invited Talk</strong>, Korea Institute of Machinery and Materials (KIMM), Department of 3D Printing, 2024. <em>Multiscale and Multiphysics Simulation of Metal Additive Manufacturing Process.</em></li>
     </ol>
+
+    <h4 id="reviewer-academic-journals">Reviewer for Academic Journals</h4>
+
+    <ul>
+      <li>Additive Manufacturing (Elsevier)</li>
+      <li>Computer Methods in Applied Mechanics and Engineering (Elsevier)</li>
+      <li>Computer-Aided Design (Elsevier)</li>
+      <li>Optics &amp; Laser Technology (Elsevier)</li>
+      <li>International Journal of Aeronautical and Space Sciences (Springer)</li>
+      <li>Advanced Engineering Informatics (Elsevier)</li>
+      <li>Journal of Building Engineering (Elsevier)</li>
+      <li>Expert Systems with Applications (Elsevier)</li>
+    </ul>
   </div>
 
   <div class="tab-pane fade" id="students" role="tabpanel" aria-labelledby="students-tab">
