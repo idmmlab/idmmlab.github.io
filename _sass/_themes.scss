@@ -210,12 +210,12 @@ body.layout-about .post,
 }
 
 // Image rendered inside the expanded "Show details" pane on Research
-// thrust cards. Cap to a comfortable reading size (well under the card
-// width) and center it; full-card-width was reading as oversized.
+// thrust cards. Fill most of the card body width but stop short of
+// the full card edge so it does not read as a banner.
 .thrust-detail-img {
   display: block;
   width: 100%;
-  max-width: 480px;
+  max-width: 900px;
   height: auto;
   margin: 0 auto 1rem auto;
   border-radius: 4px;
