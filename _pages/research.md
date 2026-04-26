@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 description: Our work spans three intertwined research directions.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 The IDMM Lab develops computational frameworks that connect **design**,

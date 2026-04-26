@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /people/
-title: People
+permalink: /team/
+title: Team
 description: Members of the IDMM Lab.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 ## Principal Investigator

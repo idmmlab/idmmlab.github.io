@@ -1,7 +1,9 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
+nav: true
+nav_order: 1
 subtitle: <strong>I</strong>ntelligent <strong>D</strong>esign for <strong>M</strong>aterials &amp; <strong>M</strong>anufacturing Lab · School of Mechanical Engineering, Soongsil University
 
 profile:
