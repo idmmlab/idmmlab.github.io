@@ -82,13 +82,15 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
     </div>
     <div class="collapse" id="thrust3-detail">
       <div class="card-body border-top">
-        <p><strong>Overview.</strong> We build digital infrastructure — digital twins, automation pipelines, and data layers — that lets generative models and simulations talk to real manufacturing processes. The aim is reusable engineering software, not one-off scripts: shared representations of geometry, process, and material that survive across projects.</p>
+        <p><strong>Overview.</strong> We build agentic AI and digital infrastructure — digital twins, design automation pipelines, and process-aware data layers — that enables generative models, simulations, and manufacturing processes to interact within closed-loop engineering workflows. The aim is reusable engineering software, not one-off scripts: shared representations of geometry, process, material, and performance that can evolve across projects.</p>
         <p class="mb-2"><strong>Key topics.</strong></p>
         <ul class="mb-0">
+          <li>Agentic AI for advanced manufacturing workflows</li>
           <li>Digital twins of additive and hybrid manufacturing processes</li>
-          <li>Design automation pipelines (CAD ↔ simulation ↔ ML)</li>
-          <li>Process-aware data infrastructure for AM</li>
-          <li>Closed-loop design–simulate–manufacture workflows</li>
+          <li>Design automation pipelines linking CAD, simulation, and machine learning</li>
+          <li>Process-aware data infrastructure for manufacturing</li>
+          <li>Design–simulate–manufacture workflows</li>
+          <li>AI-agent-assisted decision-making for materials, process, and part design</li>
         </ul>
       </div>
     </div>
