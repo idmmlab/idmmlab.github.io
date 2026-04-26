@@ -281,7 +281,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Lee]
-  first_name: [Kang-Hyun, K. H., K.-H.]
+  first_name: [Kang-Hyun]
 
   style: apa
   locale: en
