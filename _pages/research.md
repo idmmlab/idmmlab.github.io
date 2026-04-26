@@ -82,6 +82,7 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
     </div>
     <div class="collapse" id="thrust3-detail">
       <div class="card-body border-top">
+        <img src="{{ '/assets/img/AgenticAI.png' | relative_url }}" alt="Digital engineering & agentic AI for advanced manufacturing" class="thrust-detail-img">
         <p><strong>Overview.</strong> We build agentic AI and digital infrastructure — digital twins, design automation pipelines, and process-aware data layers — that enables generative models, simulations, and manufacturing processes to interact within closed-loop engineering workflows. The aim is reusable engineering software, not one-off scripts: shared representations of geometry, process, material, and performance that can evolve across projects.</p>
         <p class="mb-2"><strong>Key topics.</strong></p>
         <ul class="mb-0">
