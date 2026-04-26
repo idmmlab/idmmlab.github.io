@@ -221,14 +221,23 @@ body.layout-about .post,
   border-radius: 4px;
 }
 
+// Allow the Thrust 1 image to extend past the card body's padding
+// without being clipped by Bootstrap's default overflow:hidden on the
+// card.
+.thrust-card,
+.thrust-card .card-body,
+.thrust-card .collapse {
+  overflow: visible !important;
+}
+
 // Thrust 1 (Generative AI for Design) — render the figure smaller
 // than the card body width, keeping its natural aspect ratio (no
 // min-height, no object-fit cropping). Centered.
 #thrust1-detail .thrust-detail-img {
-  width: calc(100% + 4rem);
-  max-width: calc(100% + 4rem);
+  width: calc(100% + 8rem);
+  max-width: calc(100% + 8rem);
   height: auto;
-  margin: 0 -2rem 1rem -2rem;
+  margin: 0 -4rem 1rem -4rem;
   object-fit: initial;
   border-radius: 4px;
 }
