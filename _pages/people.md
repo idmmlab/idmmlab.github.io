@@ -64,7 +64,7 @@ nav_order: 2
 
     <ol>
       <li><strong>Invited Presentation</strong>, Materials Research Society (MRS) Fall Meeting, 2025. <em>Multiobjective Inverse Design of Compositionally Graded Blisks for Reusable Turbomachinery Using Physics-Guided Diffusion Models.</em></li>
-      <li><strong>Invited Seminar</strong>, Air Force Research Laboratory (AFRL), Materials and Manufacturing Directorate (RX Division), 2025. <em>Exploring Microstructure Design Spaces with Denoising Diffusion Models.</em></li>
+      <li><strong>Invited Seminar</strong>, U.S. Air Force Research Laboratory (AFRL), Materials and Manufacturing Directorate (RX Division), 2025. <em>Exploring Microstructure Design Spaces with Denoising Diffusion Models.</em></li>
       <li><strong>Invited Talk</strong> (Early Career Researcher), Korean Society for Aeronautical and Space Sciences (KSAS) Workshop, 2025. <em>Multiphysics Modeling for PSP Linkages in Metal Additive Manufacturing.</em></li>
       <li><strong>Invited Talk</strong>, Korea Institute of Machinery and Materials (KIMM), Department of 3D Printing, 2024. <em>Multiscale and Multiphysics Simulation of Metal Additive Manufacturing Process.</em></li>
     </ol>
