@@ -144,3 +144,14 @@ html[data-theme="dark"] {
 .navbar-toggler .icon-bar {
   background-color: var(--global-navbar-text-color) !important;
 }
+
+// Hide the dark-mode toggle (sun/moon icon) without disabling
+// site.enable_darkmode at the config level. Setting that flag to false
+// caused build failures in al-folio's stack, so we keep the toggle
+// element in the DOM and just hide it visually. The site falls back to
+// the "light" default set in assets/js/theme.js because no localStorage
+// theme is selected.
+#light-toggle,
+.toggle-container {
+  display: none !important;
+}
