@@ -1,5 +1,8 @@
 // -----------------------------------------------------------------------------
-// IDMM Lab — Theme color customization (Charcoal + Accent Blue)
+// IDMM Lab — Theme color customization
+// Navy accent (#1E3A8A) on white background. Hex values are inlined into CSS
+// variables so this file does not need to import any SCSS variables from
+// _variables.scss.
 // -----------------------------------------------------------------------------
 
 :root {
@@ -9,8 +12,8 @@
   --global-code-bg-color:       #f5f6f7;
   --global-text-color:          #1F2937;
   --global-text-color-light:    #6B7280;
-  --global-theme-color:         #2563EB;
-  --global-hover-color:         #1D4ED8;
+  --global-theme-color:         #1E3A8A;
+  --global-hover-color:         #1E40AF;
   --global-hover-text-color:    #ffffff;
   --global-footer-bg-color:     #111827;
   --global-footer-text-color:   #9CA3AF;
@@ -18,11 +21,19 @@
   --global-distill-app-color:   #828282;
   --global-divider-color:       rgba(0, 0, 0, 0.1);
   --global-card-bg-color:       #ffffff;
-  --global-highlight-color:     #2563EB;
+  --global-highlight-color:     #1E3A8A;
   --global-back-to-top-bg-color:   rgba(0, 0, 0, 0.4);
   --global-back-to-top-text-color: #ffffff;
   --global-newsletter-bg-color:    #ffffff;
   --global-newsletter-text-color:  #000000;
+
+  // Navbar-specific tokens. Kept separate from --global-bg-color /
+  // --global-text-color so the navbar can be navy with white text without
+  // affecting the page body.
+  --global-navbar-bg-color:     #1E3A8A;
+  --global-navbar-text-color:   #ffffff;
+  --global-navbar-hover-color:  #BFDBFE;
+  --global-navbar-active-color: #ffffff;
 
   --global-tip-block:          #42b983;
   --global-tip-block-bg:       #dbf5e9;
@@ -50,8 +61,8 @@ html[data-theme="dark"] {
   --global-code-bg-color:       #2c3237;
   --global-text-color:          #E5E7EB;
   --global-text-color-light:    #9CA3AF;
-  --global-theme-color:         #60A5FA;
-  --global-hover-color:         #93C5FD;
+  --global-theme-color:         #93C5FD;
+  --global-hover-color:         #BFDBFE;
   --global-hover-text-color:    #0F172A;
   --global-footer-bg-color:     #424246;
   --global-footer-text-color:   #e8e8e8;
@@ -63,6 +74,11 @@ html[data-theme="dark"] {
   --global-back-to-top-text-color: #ffffff;
   --global-newsletter-bg-color:    #424246;
   --global-newsletter-text-color:  #ffffff;
+
+  --global-navbar-bg-color:     #0F1E5C;
+  --global-navbar-text-color:   #ffffff;
+  --global-navbar-hover-color:  #93C5FD;
+  --global-navbar-active-color: #ffffff;
 
   --global-tip-block:          #42b983;
   --global-tip-block-bg:       #e2f5ec;
@@ -81,4 +97,50 @@ html[data-theme="dark"] {
   .fa-moon { display: none; }
   .repo-img-light  { display: none;  }
   .repo-img-dark   { display: block; }
+}
+
+// -----------------------------------------------------------------------------
+// Navbar overrides — al-folio's _navbar.scss colors the navbar with
+// --global-bg-color / --global-text-color (matching the page body). For the
+// IDMM Lab brand we want a navy navbar with white text, so we override those
+// rules using the --global-navbar-* variables defined above. Selectors below
+// match _navbar.scss specificity.
+// -----------------------------------------------------------------------------
+
+.navbar {
+  background-color: var(--global-navbar-bg-color) !important;
+  border-bottom: none;
+  opacity: 1;
+}
+
+.navbar.navbar-light {
+  .navbar-brand,
+  .navbar-nav .nav-item .nav-link {
+    color: var(--global-navbar-text-color);
+  }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    color: var(--global-navbar-hover-color);
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    color: var(--global-navbar-active-color);
+
+    &:hover {
+      color: var(--global-navbar-hover-color);
+    }
+  }
+}
+
+#light-toggle,
+#search-toggle {
+  color: var(--global-navbar-text-color);
+
+  &:hover {
+    color: var(--global-navbar-hover-color);
+  }
+}
+
+.navbar-toggler .icon-bar {
+  background-color: var(--global-navbar-text-color);
 }
