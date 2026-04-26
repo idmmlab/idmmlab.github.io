@@ -169,22 +169,14 @@ html[data-theme="dark"] {
   display: block;
 }
 
-// Home hero logo (full-color IDMM_logo.png) shown at the top-right of
-// the home page body, above the keyword chip line.
-.home-hero-logo {
-  float: right;
-  max-width: 180px;
+// Home hero banner (front_page.png) shown full-width at the top of the
+// home page body in place of the old text title / subtitle / corner logo.
+.home-hero-banner {
+  display: block;
+  width: 100%;
   height: auto;
-  margin: 0 0 1rem 1.5rem;
-}
-
-@media (max-width: 575px) {
-  .home-hero-logo {
-    float: none;
-    display: block;
-    max-width: 140px;
-    margin: 0 auto 1rem auto;
-  }
+  margin: 0 0 1.5rem 0;
+  border-radius: 6px;
 }
 
 // Research thrust card header — tighten the colored band so it scales

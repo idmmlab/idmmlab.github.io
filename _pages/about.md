@@ -4,7 +4,6 @@ title: Home
 permalink: /
 nav: true
 nav_order: 1
-subtitle: AI-driven design and digital engineering for materials, parts, and advanced manufacturing systems.
 
 selected_papers: true
 social: false
@@ -18,7 +17,7 @@ latest_posts:
   enabled: false
 ---
 
-<img src="{{ '/assets/img/IDMM_logo.png' | relative_url }}" alt="IDMM Lab logo" class="home-hero-logo">
+<img src="{{ '/assets/img/front_page.png' | relative_url }}" alt="IDMM Lab" class="home-hero-banner">
 
 **Generative AI** · **Multiphysics Modeling** · **Digital Twins** · **Design Automation** · **Advanced Manufacturing**
 
