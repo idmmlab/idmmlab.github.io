@@ -2,6 +2,8 @@
 layout: about
 title: Home
 permalink: /
+nav: true
+nav_order: 1
 subtitle: AI-driven design and digital engineering for materials, parts, and advanced manufacturing systems.
 
 selected_papers: true

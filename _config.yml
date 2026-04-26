@@ -61,7 +61,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1200px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -200,6 +200,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - pictures/
   - purgecss.config.js
   - README.md
   - readme_preview/

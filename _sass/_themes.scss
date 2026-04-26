@@ -102,45 +102,45 @@ html[data-theme="dark"] {
 // -----------------------------------------------------------------------------
 // Navbar overrides — al-folio's _navbar.scss colors the navbar with
 // --global-bg-color / --global-text-color (matching the page body). For the
-// IDMM Lab brand we want a navy navbar with white text, so we override those
-// rules using the --global-navbar-* variables defined above. Selectors below
-// match _navbar.scss specificity.
+// IDMM Lab brand we want a navy navbar with WHITE text in every state and in
+// both light and dark themes. The rules below force white with !important so
+// nothing in al-folio's stack can re-color them. The hover variant uses a
+// pale-blue tint for affordance only.
 // -----------------------------------------------------------------------------
 
 .navbar {
   background-color: var(--global-navbar-bg-color) !important;
-  border-bottom: none;
-  opacity: 1;
+  border-bottom: none !important;
+  opacity: 1 !important;
 }
 
+// All navbar text — brand, nav links, dropdown toggles — is white in every
+// state. Apply broadly via descendant selectors and !important so theme
+// toggles and active states cannot drop the contrast.
+.navbar,
 .navbar.navbar-light {
   .navbar-brand,
-  .navbar-nav .nav-item .nav-link {
-    color: var(--global-navbar-text-color);
+  .navbar-brand a,
+  .navbar-nav .nav-item .nav-link,
+  .navbar-nav .nav-item.active > .nav-link,
+  .navbar-nav .nav-item .nav-link.dropdown-toggle,
+  #light-toggle,
+  #light-toggle .nav-link,
+  #search-toggle,
+  #search-toggle .nav-link {
+    color: var(--global-navbar-text-color) !important;
   }
 
-  .navbar-nav .nav-item .nav-link:hover {
-    color: var(--global-navbar-hover-color);
-  }
-
-  .navbar-nav .nav-item.active > .nav-link {
-    color: var(--global-navbar-active-color);
-
-    &:hover {
-      color: var(--global-navbar-hover-color);
-    }
-  }
-}
-
-#light-toggle,
-#search-toggle {
-  color: var(--global-navbar-text-color);
-
-  &:hover {
-    color: var(--global-navbar-hover-color);
+  .navbar-brand:hover,
+  .navbar-brand a:hover,
+  .navbar-nav .nav-item .nav-link:hover,
+  .navbar-nav .nav-item.active > .nav-link:hover,
+  #light-toggle:hover,
+  #search-toggle:hover {
+    color: var(--global-navbar-hover-color) !important;
   }
 }
 
 .navbar-toggler .icon-bar {
-  background-color: var(--global-navbar-text-color);
+  background-color: var(--global-navbar-text-color) !important;
 }
