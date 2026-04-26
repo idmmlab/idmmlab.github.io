@@ -16,7 +16,7 @@ footer_text: >
   369 Sangdo-ro, Dongjak-gu, Seoul 06978, Republic of Korea.
 keywords: generative AI, multiphysics modeling, digital twin, design automation, advanced manufacturing, metal additive manufacturing, IDMM Lab, Soongsil University
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: IDMM_logo.png # favicon shown next to the browser-tab title (image in /assets/img/)
 
 url: https://kanghyunl.github.io
 baseurl: "/idmmlab.github.io"
