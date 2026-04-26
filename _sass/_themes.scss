@@ -197,18 +197,19 @@ html[data-theme="dark"] {
 }
 
 // Publications page preview thumbnails — al-folio renders the image
-// at the BibTeX `preview` URL inside a 2-col Bootstrap cell. Without a
-// constraint the 300x300 placehold.co images overflow into the title
-// column, so cap them to the column width and a fixed pixel height.
+// at the BibTeX `preview` URL inside the `.col.abbr` cell, directly
+// under the journal-abbreviation badge. Match the image width to the
+// badge above it (full column width, w-100) and keep the aspect ratio
+// square so the thumbnail reads as a uniform tile.
 .publications .preview,
 .col.abbr .preview {
   width: 100% !important;
-  max-width: 110px;
   height: auto !important;
-  max-height: 110px;
+  max-width: 100% !important;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
-  margin: 0 auto;
+  margin: 0;
 }
 
 // Team page sub-tab navigation (Advisor / Students / Alumni). Keep the
