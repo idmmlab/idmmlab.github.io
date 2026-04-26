@@ -210,21 +210,15 @@ body.layout-about .post,
 }
 
 // Image rendered inside the expanded "Show details" pane on Research
-// thrust cards. Fill most of the card body width but stop short of
-// the full card edge so it does not read as a banner.
+// thrust cards. Fill the card body width fully (the body's own padding
+// keeps it from touching the card edge).
 .thrust-detail-img {
   display: block;
   width: 100%;
-  max-width: 900px;
+  max-width: 100%;
   height: auto;
   margin: 0 auto 1rem auto;
   border-radius: 4px;
-}
-
-@media (max-width: 575px) {
-  .thrust-detail-img {
-    max-width: 100%;
-  }
 }
 
 // Publications page preview thumbnails — al-folio renders the image
