@@ -10,12 +10,12 @@ This is the **IDMM Lab fork** of the upstream [al-folio](https://github.com/alsh
 
 ### Deployment target
 
-Served as a **project site**, not a personal site. In `_config.yml`:
+Served as an **organization site** under the `idmmlab` GitHub org (repo: `idmmlab/idmmlab.github.io`). In `_config.yml`:
 
-- `url: https://kanghyunl.github.io`
-- `baseurl: "/idmmlab.github.io"`
+- `url: https://idmmlab.github.io`
+- `baseurl: ""` (empty — this is a `<org>.github.io` site, not a project site)
 
-The pair must stay in sync — changing one without the other breaks CSS/JS asset URLs on the deployed site. Always use `{{ '/path' | relative_url }}` in templates instead of hard-coding `/`-prefixed paths, otherwise links break under the baseurl.
+The pair must stay in sync — changing one without the other breaks CSS/JS asset URLs on the deployed site. Always use `{{ '/path' | relative_url }}` in templates instead of hard-coding `/`-prefixed paths, so links keep working if the baseurl ever changes again.
 
 ### Custom additions beyond stock al-folio
 

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://kanghyunl.github.io/idmmlab.github.io/sitemap.xml
+Sitemap: https://idmmlab.github.io/sitemap.xml
