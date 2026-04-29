@@ -11,10 +11,18 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   IDMM Lab — AI-driven design and digital engineering for materials, parts, and advanced manufacturing systems.
   School of Mechanical Engineering, Soongsil University.
+  지능형 소재 및 제조 설계 연구실 (IDMM Lab) — 숭실대학교 기계공학과.
+  생성형 인공지능, 멀티피직스 모델링, 디지털 트윈, 설계 자동화, 첨단제조 분야의 계산 방법론을 연구합니다.
 footer_text: >
   IDMM Lab, School of Mechanical Engineering, Soongsil University.
   369 Sangdo-ro, Dongjak-gu, Seoul 06978, Republic of Korea.
-keywords: generative AI, multiphysics modeling, digital twin, design automation, advanced manufacturing, metal additive manufacturing, IDMM Lab, Soongsil University
+keywords: >
+  생성형 인공지능, 멀티피직스 모델링, 디지털 트윈, 설계 자동화, 첨단제조,
+  지능형 소재 및 제조 설계 연구실, 지능형 재료 및 제조 설계 연구실, IDMM 연구실, IDMM Lab,
+  숭실대학교 기계공학과, 숭실대 IDMM, 이강현 교수, 금속 적층제조, 역설계,
+  generative AI, multiphysics modeling, digital twin, design automation, advanced manufacturing,
+  metal additive manufacturing, inverse design, scientific machine learning, Soongsil University,
+  Kang-Hyun Lee
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: IDMM_logo.png # favicon shown next to the browser-tab title (image in /assets/img/)
 
