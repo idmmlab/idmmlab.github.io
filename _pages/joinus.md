@@ -13,10 +13,11 @@ The IDMM Lab (지능형 소재 및 제조 설계 연구실) is recruiting gradua
 
 **Recruiting topics.**
 
-- Generative-AI-based CAD generation and parametrization for aerospace mobility components
-- Agentic-AI-based analysis and design automation of composite microstructures
-- DFT-based study of ceramic composite materials for aerospace applications
-- Computational simulation of additive manufacturing processes and development of physics-informed surrogate models
+- Physics-guided generative AI for optimal design of composite materials
+- Materials design foundation models trained on domain-specific data
+- Multiscale simulation-based inverse design of integrated material-component systems
+- Multiphysics modeling of additive manufacturing and physics-informed surrogate models
+- Agentic AI for aerospace and mobility component CAD generation and parameterization
 
 **What to send.**
 
@@ -34,10 +35,11 @@ Send the above to the PI email below.
 
 **모집 분야.**
 
-- 생성형 AI 기반 항공우주 모빌리티 부품 CAD 생성 및 parametrization
-- Agentic AI 기반 복합재 미세구조 분석 및 설계 자동화
-- DFT 기반 항공우주 세라믹 복합소재 연구
-- 적층제조 공정 전산해석 및 physics-informed 대리모델 개발
+- Physics-guided 생성형 AI를 활용한 복합소재 최적 설계
+- 도메인 특화 데이터 기반 소재 설계 Foundation Model 개발
+- 멀티스케일 해석 기반 소재-부품 통합 역설계
+- 적층제조 공정 다물리 해석 및 Physics-informed 대리모델 개발
+- Agentic AI 기반 항공우주·모빌리티 부품 CAD 생성 및 파라메트리제이션
 
 **보내주실 자료.**
 
