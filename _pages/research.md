@@ -68,7 +68,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
       <p class="card-text mb-3">Data-efficient prediction of 3D microstructures, properties, and performance from limited 2D observations — expanding local surface data into representative 3D volumes.</p>
     </div>
     <div class="card-body border-top">
-      <img src="{{ '/assets/img/2D3DMicro.png' | relative_url }}" alt="Sparse-to-Rich 2D/3D material behavior prediction" class="thrust-detail-img">
+      <img src="{{ '/assets/img/2D3DMicro_rev.png' | relative_url }}" alt="Sparse-to-Rich 2D/3D material behavior prediction" class="thrust-detail-img">
       <p><strong>Overview.</strong> This thrust aims to enable data-efficient prediction of 3D material structures, properties, and performance from limited 2D observations. By expanding local 2D surface information into representative 3D microstructures, this approach provides a pathway to infer internal structures that are difficult to directly observe. The reconstructed 3D data will be validated using paired 2D/3D datasets and integrated with uncertainty quantification and physics-guided analysis for robust materials prediction.</p>
       <p class="mb-2"><strong>Key topics.</strong></p>
       <ul class="mb-0">
