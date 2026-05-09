@@ -17,7 +17,7 @@ latest_posts:
   enabled: false
 ---
 
-<img src="{{ '/assets/img/Homepage_figure_re.png' | relative_url }}" alt="IDMM Lab" class="home-hero-banner">
+<img src="{{ '/assets/img/Homepage_figure_re2.png' | relative_url }}" alt="IDMM Lab" class="home-hero-banner">
 
 **Generative AI** · **Multiphysics Modeling** · **Multiscale Modeling** · **Digital Twins** · **Design Automation** · **Advanced Manufacturing**
 

@@ -71,7 +71,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
       <p lang="ko" class="card-text mb-0">제한된 2D 이미지와 국소 관측 데이터로부터 3D 소재 미세구조, 물성, 성능을 예측합니다. 2D 표면 정보를 대표적인 3D 체적 구조로 확장하여 직접 관찰하기 어려운 내부 구조와 3D 거동을 추론합니다.</p>
     </div>
     <div class="card-body border-top">
-      <img src="{{ '/assets/img/2D3DMicro_rev.png' | relative_url }}" alt="Sparse-to-Rich 2D/3D material characterization & reconstruction" class="thrust-detail-img">
+      <img src="{{ '/assets/img/2D3DMicro_rev_2.png' | relative_url }}" alt="Sparse-to-Rich 2D/3D material characterization & reconstruction" class="thrust-detail-img">
       <p><strong>Overview.</strong> This thrust aims to enable data-efficient prediction of 3D material structures, properties, and performance from limited 2D observations. By expanding local 2D surface information into representative 3D microstructures, this approach provides a pathway to infer internal structures that are difficult to directly observe. The reconstructed 3D data will be validated using paired 2D/3D datasets and integrated with uncertainty quantification and physics-guided analysis for robust materials prediction.</p>
       <p class="mb-2"><strong>Key topics.</strong></p>
       <ul class="mb-0">
