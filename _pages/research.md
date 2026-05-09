@@ -31,7 +31,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
         <li>Manufacturability-aware generation</li>
         <li>Learned design representations (implicit fields, graphs, voxels)</li>
       </ul>
-      <p lang="ko" class="mt-3 mb-0">생성형 AI를 활용하여 고성능 소재 미세구조와 부품 형상을 설계하는 연구입니다. 제조 가능성, 성능 목표, 물리적 제약조건을 함께 고려하여 실제 제작 가능한 설계안을 탐색하고 제안하는 것을 목표로 합니다.</p>
+      <p lang="ko" class="mt-3 mb-0">생성형 AI를 활용하여 고성능 소재 미세구조와 부품 형상을 설계하는 연구입니다. 제조 가능성, 성능 목표, 다양한 물리적 제약조건을 함께 고려하여 실제 제작 가능한 설계안을 탐색하고 제안하는 것을 목표로 합니다.</p>
     </div>
   </div>
 
@@ -55,7 +55,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
         <li>Surrogate and reduced-order models for design-time use</li>
         <li>Uncertainty quantification across scales</li>
       </ul>
-      <p lang="ko" class="mt-3 mb-0">소재, 공정, 구조, 열, 역학 현상을 여러 물리장과 길이 스케일에서 해석하는 연구입니다. FEM, FVM 등 물리 기반 시뮬레이션을 활용하여 미세구조 변화, 공정 중 물리 현상, 부품 수준의 기계적·열적 성능을 연결합니다.</p>
+      <p lang="ko" class="mt-3 mb-0">소재의 물성 예측을 위해 다양한 물리 현상과 길이 스케일을 통합적으로 해석하는 연구입니다. FEM, FVM 등 물리 기반 시뮬레이션을 활용하여 공정 중 물리 현상, 미세구조 변화, 최종 소재 물성을 연결하고, 공정-구조-물성(Process-Structure-Property) 관계를 구축합니다.</p>
     </div>
   </div>
 
