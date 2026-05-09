@@ -47,7 +47,7 @@ nav_order: 2
           he worked as a Postdoctoral Associate in the
           <a href="https://decode.mit.edu/" target="_blank" rel="noopener">DeCoDE Lab</a>
           in the Department of Mechanical Engineering at the Massachusetts
-          Institute of Technology, where he contributed to a DARPA-funded research
+          Institute of Technology (MIT), where he contributed to a DARPA-funded research
           project on developing generative artificial intelligence for the design
           and manufacturing of reusable rocket components. He received his Ph.D. and
           M.S. from the Department of Aerospace Engineering at Seoul National
