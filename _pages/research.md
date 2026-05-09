@@ -20,7 +20,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
     </div>
     <div class="card-body">
       <p class="card-text mb-2">Generative models that propose feasible, manufacturable, performance-driven designs for parts and material microstructures.</p>
-      <p lang="ko" class="card-text mb-0">생성형 AI를 활용하여 고성능 소재 미세구조와 부품 형상을 설계하는 연구입니다. 제조 가능성, 성능 목표, 다양한 물리적 제약조건을 함께 고려하여 실제 제작 가능한 설계안을 탐색하고 제안하는 것을 목표로 합니다.</p>
+      <p lang="ko" class="card-text mb-0">생성형 AI를 활용해 기존 설계 방법론으로는 탐색하기 어려운 Nonlinear/Nonconvex 설계 공간을 탐색합니다. 제조 가능성, 성능 목표, 다양한 물리적 제약조건을 함께 반영하여 실제 제작 가능한 고성능 소재 미세구조와 부품 형상 설계안을 제안합니다.</p>
     </div>
     <div class="card-body border-top">
       <img src="{{ '/assets/img/GenAI_design.png' | relative_url }}" alt="Generative AI for Advanced Materials & Component Design" class="thrust-detail-img">
@@ -44,7 +44,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
     </div>
     <div class="card-body">
       <p class="card-text mb-2">Physics-based simulation (FEM, FVM) that bridges scales — from microstructure evolution and process physics to component-level mechanical and thermal performance.</p>
-      <p lang="ko" class="card-text mb-0">소재의 물성 예측을 위해 다양한 물리 현상과 길이 스케일을 통합적으로 해석하는 연구입니다. FEM, FVM 등 물리 기반 시뮬레이션을 활용하여 공정 중 물리 현상, 미세구조 변화, 최종 소재 물성을 연결하고, 공정-구조-물성(Process-Structure-Property) 관계를 구축합니다.</p>
+      <p lang="ko" class="card-text mb-0">소재 물성을 예측하기 위해 다양한 물리 현상과 길이 스케일을 통합적으로 해석합니다. FEM, FVM 등 물리 기반 시뮬레이션을 활용해 공정 중 발생하는 물리 현상, 미세구조 변화, 최종 소재 물성을 연결하고, 공정-구조-물성(Process-Structure-Property) 관계를 구축합니다.</p>
     </div>
     <div class="card-body border-top">
       <img src="{{ '/assets/img/PSP.gif' | relative_url }}" alt="Multiphysics & multiscale modeling — PSP linkages" class="thrust-detail-img">
@@ -68,7 +68,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
     </div>
     <div class="card-body">
       <p class="card-text mb-2">Data-efficient prediction of 3D microstructures, properties, and performance from limited 2D observations — expanding local surface data into representative 3D volumes.</p>
-      <p lang="ko" class="card-text mb-0">제한된 2D 이미지와 국소 관측 데이터만으로 3D 소재 미세구조, 물성, 성능을 예측하는 데이터 효율적 모델링 연구입니다. 2D 표면 정보를 대표적인 3D 체적 구조로 확장하여 관찰하기 어려운 내부 구조와 3D 거동을 추론합니다.</p>
+      <p lang="ko" class="card-text mb-0">제한된 2D 이미지와 국소 관측 데이터로부터 3D 소재 미세구조, 물성, 성능을 예측합니다. 2D 표면 정보를 대표적인 3D 체적 구조로 확장하여 직접 관찰하기 어려운 내부 구조와 3D 거동을 추론합니다.</p>
     </div>
     <div class="card-body border-top">
       <img src="{{ '/assets/img/2D3DMicro_rev.png' | relative_url }}" alt="Sparse-to-Rich 2D/3D material characterization & reconstruction" class="thrust-detail-img">
@@ -94,7 +94,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
     </div>
     <div class="card-body">
       <p class="card-text mb-2">Digital twins, design automation, and end-to-end pipelines that connect CAD, simulation, and manufacturing data.</p>
-      <p lang="ko" class="card-text mb-0">CAD, 시뮬레이션, 제조 데이터를 연결하는 디지털 엔지니어링 연구입니다. 디지털 트윈, 설계 자동화, end-to-end 데이터 파이프라인을 통해 첨단 제조 공정과 부품 설계의 효율성과 신뢰성을 높이는 것을 목표로 합니다.</p>
+      <p lang="ko" class="card-text mb-0">CAD, 시뮬레이션, 제조 데이터를 하나의 디지털 흐름으로 연결합니다. 디지털 트윈, 설계 자동화, end-to-end 데이터 파이프라인을 통해 첨단 제조 공정과 부품 설계의 효율성과 신뢰성을 높입니다.</p>
     </div>
     <div class="card-body border-top">
       <img src="{{ '/assets/img/AgenticAI.png' | relative_url }}" alt="Digital engineering & agentic AI for advanced manufacturing" class="thrust-detail-img">
