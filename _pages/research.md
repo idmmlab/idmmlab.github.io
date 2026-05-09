@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-We pursue three tightly coupled research thrusts. Each one is useful on its own, but the lab's distinctive contribution lies at their intersection: design methods that are simultaneously **generative**, **physically grounded**, and **manufacturable**.
+We pursue four tightly coupled research thrusts. Each one is useful on its own, but the lab's distinctive contribution lies at their intersection: design methods that are simultaneously **generative**, **physically grounded**, and **manufacturable**.
 
 <div class="thrust-list mt-4">
 
@@ -68,19 +68,49 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
   </div>
 
   <div class="card thrust-card mb-4 shadow-sm">
-    <div class="thrust-card-img d-flex align-items-end" style="height: 200px; background: linear-gradient(135deg, #1E3A8A 0%, #7C3AED 100%);">
+    <div class="thrust-card-img d-flex align-items-end" style="height: 200px; background: linear-gradient(135deg, #1E3A8A 0%, #10B981 100%);">
       <div class="p-3 text-white">
         <small class="text-uppercase" style="letter-spacing: 0.08em; opacity: 0.85;">Thrust 3</small>
-        <h3 class="mb-0" style="color: white;">Digital Engineering for Advanced Manufacturing</h3>
+        <h3 class="mb-0" style="color: white;">Sparse-to-Rich 2D/3D Material Behavior Prediction</h3>
       </div>
     </div>
     <div class="card-body">
-      <p class="card-text mb-3">Digital twins, design automation, and end-to-end pipelines that connect CAD, simulation, and manufacturing data.</p>
+      <p class="card-text mb-3">Data-efficient prediction of 3D microstructures, properties, and performance from limited 2D observations — expanding local surface data into representative 3D volumes.</p>
       <a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#thrust3-detail" role="button" aria-expanded="false" aria-controls="thrust3-detail">
         Show details
       </a>
     </div>
     <div class="collapse" id="thrust3-detail">
+      <div class="card-body border-top">
+        <img src="{{ '/assets/img/2D3DMicro.png' | relative_url }}" alt="Sparse-to-Rich 2D/3D material behavior prediction" class="thrust-detail-img">
+        <p><strong>Overview.</strong> This thrust aims to enable data-efficient prediction of 3D material structures, properties, and performance from limited 2D observations. By expanding local 2D surface information into representative 3D microstructures, this approach provides a pathway to infer internal structures that are difficult to directly observe. The reconstructed 3D data will be validated using paired 2D/3D datasets and integrated with uncertainty quantification and physics-guided analysis for robust materials prediction.</p>
+        <p class="mb-2"><strong>Key topics.</strong></p>
+        <ul class="mb-0">
+          <li>2D-to-3D dimensionality expansion of material microstructures</li>
+          <li>Surface-to-volume inference for internal 3D structure prediction</li>
+          <li>Data-efficient 3D property and performance prediction from local 2D data</li>
+          <li>Paired 2D/3D dataset construction for model training and validation</li>
+          <li>Uncertainty quantification for reliable 2D-to-3D prediction</li>
+          <li>Physics-guided validation of predicted 3D microstructures and behavior</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card thrust-card mb-4 shadow-sm">
+    <div class="thrust-card-img d-flex align-items-end" style="height: 200px; background: linear-gradient(135deg, #1E3A8A 0%, #7C3AED 100%);">
+      <div class="p-3 text-white">
+        <small class="text-uppercase" style="letter-spacing: 0.08em; opacity: 0.85;">Thrust 4</small>
+        <h3 class="mb-0" style="color: white;">Digital Engineering for Advanced Manufacturing</h3>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="card-text mb-3">Digital twins, design automation, and end-to-end pipelines that connect CAD, simulation, and manufacturing data.</p>
+      <a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#thrust4-detail" role="button" aria-expanded="false" aria-controls="thrust4-detail">
+        Show details
+      </a>
+    </div>
+    <div class="collapse" id="thrust4-detail">
       <div class="card-body border-top">
         <img src="{{ '/assets/img/AgenticAI.png' | relative_url }}" alt="Digital engineering & agentic AI for advanced manufacturing" class="thrust-detail-img">
         <p><strong>Overview.</strong> We build agentic AI and digital infrastructure — digital twins, design automation pipelines, and process-aware data layers — that enables generative models, simulations, and manufacturing processes to interact within closed-loop engineering workflows. The aim is reusable engineering software, not one-off scripts: shared representations of geometry, process, material, and performance that can evolve across projects.</p>
