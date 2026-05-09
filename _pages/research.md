@@ -31,6 +31,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
         <li>Manufacturability-aware generation</li>
         <li>Learned design representations (implicit fields, graphs, voxels)</li>
       </ul>
+      <p lang="ko" class="mt-3 mb-0">생성형 AI를 활용하여 고성능 소재 미세구조와 부품 형상을 설계하는 연구입니다. 제조 가능성, 성능 목표, 물리적 제약조건을 함께 고려하여 실제 제작 가능한 설계안을 탐색하고 제안하는 것을 목표로 합니다.</p>
     </div>
   </div>
 
@@ -54,6 +55,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
         <li>Surrogate and reduced-order models for design-time use</li>
         <li>Uncertainty quantification across scales</li>
       </ul>
+      <p lang="ko" class="mt-3 mb-0">소재, 공정, 구조, 열, 역학 현상을 여러 물리장과 길이 스케일에서 해석하는 연구입니다. FEM, FVM 등 물리 기반 시뮬레이션을 활용하여 미세구조 변화, 공정 중 물리 현상, 부품 수준의 기계적·열적 성능을 연결합니다.</p>
     </div>
   </div>
 
@@ -79,6 +81,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
         <li>Uncertainty quantification for reliable 2D-to-3D prediction</li>
         <li>Physics-guided validation of predicted 3D microstructures and behavior</li>
       </ul>
+      <p lang="ko" class="mt-3 mb-0">제한된 2D 이미지와 국소 관측 데이터만으로 3D 소재 미세구조, 물성, 성능을 예측하는 데이터 효율적 모델링 연구입니다. 2D 표면 정보를 대표적인 3D 체적 구조로 확장하여 관찰하기 어려운 내부 구조와 3D 거동을 추론합니다.</p>
     </div>
   </div>
 
@@ -104,6 +107,7 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
         <li>Design–simulate–manufacture workflows</li>
         <li>AI-agent-assisted decision-making for materials, process, and part design</li>
       </ul>
+      <p lang="ko" class="mt-3 mb-0">CAD, 시뮬레이션, 제조 데이터를 연결하는 디지털 엔지니어링 연구입니다. 디지털 트윈, 설계 자동화, end-to-end 데이터 파이프라인을 통해 첨단 제조 공정과 부품 설계의 효율성과 신뢰성을 높이는 것을 목표로 합니다.</p>
     </div>
   </div>
 
