@@ -15,7 +15,7 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
     <div class="thrust-card-img d-flex align-items-end" style="height: 200px; background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);">
       <div class="p-3 text-white">
         <small class="text-uppercase" style="letter-spacing: 0.08em; opacity: 0.85;">Thrust 1</small>
-        <h3 class="mb-0" style="color: white;">Generative AI for Design</h3>
+        <h3 class="mb-0" style="color: white;">Generative AI for Advanced Materials &amp; Component Design</h3>
       </div>
     </div>
     <div class="card-body">
@@ -26,7 +26,7 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
     </div>
     <div class="collapse" id="thrust1-detail">
       <div class="card-body border-top">
-        <img src="{{ '/assets/img/GenAI_design.png' | relative_url }}" alt="Generative AI for Design" class="thrust-detail-img">
+        <img src="{{ '/assets/img/GenAI_design.png' | relative_url }}" alt="Generative AI for Advanced Materials & Component Design" class="thrust-detail-img">
         <p><strong>Overview.</strong> We build generative models — diffusion, autoregressive, and graph-based — that learn from physics simulations and existing designs to propose new geometries, lattice topologies, and material distributions. Unlike pure shape generation, our outputs are conditioned on engineering targets (stiffness, weight, thermal margin, finite life, manufacturability) and on process constraints.</p>
         <p class="mb-2"><strong>Key topics.</strong></p>
         <ul class="mb-0">
