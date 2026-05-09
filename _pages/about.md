@@ -19,9 +19,9 @@ latest_posts:
 
 <img src="{{ '/assets/img/Homepage_figure_re.png' | relative_url }}" alt="IDMM Lab" class="home-hero-banner">
 
-**Generative AI** · **Multiphysics Modeling** · **Digital Twins** · **Design Automation** · **Advanced Manufacturing**
+**Generative AI** · **Multiphysics Modeling** · **Multiscale Modeling** · **Digital Twins** · **Design Automation** · **Advanced Manufacturing**
 
-**생성형 인공지능** · **멀티피직스 모델링** · **디지털 트윈** · **설계 자동화** · **첨단제조**
+**생성형 인공지능** · **멀티피직스 모델링** · **멀티스케일 모델링** · **디지털 트윈** · **설계 자동화** · **첨단제조**
 
 The **Intelligent Design for Materials & Manufacturing (IDMM) Lab** (지능형 소재 및 제조 설계 연구실) at Soongsil University builds computational methods that connect generative AI, multiphysics modeling, and digital engineering. We design materials, parts, and manufacturing processes that are difficult to design by hand — and we build the digital infrastructure that makes those methods reusable across problems.
 
