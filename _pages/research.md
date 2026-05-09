@@ -20,22 +20,17 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
     </div>
     <div class="card-body">
       <p class="card-text mb-3">Generative models that propose feasible, manufacturable, performance-driven designs for parts and material microstructures.</p>
-      <a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#thrust1-detail" role="button" aria-expanded="false" aria-controls="thrust1-detail">
-        Show details
-      </a>
     </div>
-    <div class="collapse" id="thrust1-detail">
-      <div class="card-body border-top">
-        <img src="{{ '/assets/img/GenAI_design.png' | relative_url }}" alt="Generative AI for Advanced Materials & Component Design" class="thrust-detail-img">
-        <p><strong>Overview.</strong> We build generative models — diffusion, autoregressive, and graph-based — that learn from physics simulations and existing designs to propose new geometries, lattice topologies, and material distributions. Unlike pure shape generation, our outputs are conditioned on engineering targets (stiffness, weight, thermal margin, finite life, manufacturability) and on process constraints.</p>
-        <p class="mb-2"><strong>Key topics.</strong></p>
-        <ul class="mb-0">
-          <li>Physics-guided generative models</li>
-          <li>Inverse design under multi-objective performance targets</li>
-          <li>Manufacturability-aware generation</li>
-          <li>Learned design representations (implicit fields, graphs, voxels)</li>
-        </ul>
-      </div>
+    <div class="card-body border-top">
+      <img src="{{ '/assets/img/GenAI_design.png' | relative_url }}" alt="Generative AI for Advanced Materials & Component Design" class="thrust-detail-img">
+      <p><strong>Overview.</strong> We build generative models — diffusion, autoregressive, and graph-based — that learn from physics simulations and existing designs to propose new geometries, lattice topologies, and material distributions. Unlike pure shape generation, our outputs are conditioned on engineering targets (stiffness, weight, thermal margin, finite life, manufacturability) and on process constraints.</p>
+      <p class="mb-2"><strong>Key topics.</strong></p>
+      <ul class="mb-0">
+        <li>Physics-guided generative models</li>
+        <li>Inverse design under multi-objective performance targets</li>
+        <li>Manufacturability-aware generation</li>
+        <li>Learned design representations (implicit fields, graphs, voxels)</li>
+      </ul>
     </div>
   </div>
 
@@ -48,22 +43,17 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
     </div>
     <div class="card-body">
       <p class="card-text mb-3">Physics-based simulation (FEM, FVM) that bridges scales — from microstructure evolution and process physics to component-level mechanical and thermal performance.</p>
-      <a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#thrust2-detail" role="button" aria-expanded="false" aria-controls="thrust2-detail">
-        Show details
-      </a>
     </div>
-    <div class="collapse" id="thrust2-detail">
-      <div class="card-body border-top">
-        <img src="{{ '/assets/img/PSP.gif' | relative_url }}" alt="Multiphysics & multiscale modeling — PSP linkages" class="thrust-detail-img">
-        <p><strong>Overview.</strong> We develop and use multiphysics simulations — thermal, mechanical, microstructural — for materials and manufacturing processes, with an emphasis on metal additive manufacturing. We are especially interested in surrogate-model-friendly simulations, structured so that machine learning can absorb their behavior and reuse it during design.</p>
-        <p class="mb-2"><strong>Key topics.</strong></p>
-        <ul class="mb-0">
-          <li>Process-Structure-Property (PSP) linkages</li>
-          <li>Multiscale simulation linking microstructure to component performance</li>
-          <li>Surrogate and reduced-order models for design-time use</li>
-          <li>Uncertainty quantification across scales</li>
-        </ul>
-      </div>
+    <div class="card-body border-top">
+      <img src="{{ '/assets/img/PSP.gif' | relative_url }}" alt="Multiphysics & multiscale modeling — PSP linkages" class="thrust-detail-img">
+      <p><strong>Overview.</strong> We develop and use multiphysics simulations — thermal, mechanical, microstructural — for materials and manufacturing processes, with an emphasis on metal additive manufacturing. We are especially interested in surrogate-model-friendly simulations, structured so that machine learning can absorb their behavior and reuse it during design.</p>
+      <p class="mb-2"><strong>Key topics.</strong></p>
+      <ul class="mb-0">
+        <li>Process-Structure-Property (PSP) linkages</li>
+        <li>Multiscale simulation linking microstructure to component performance</li>
+        <li>Surrogate and reduced-order models for design-time use</li>
+        <li>Uncertainty quantification across scales</li>
+      </ul>
     </div>
   </div>
 
@@ -76,24 +66,19 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
     </div>
     <div class="card-body">
       <p class="card-text mb-3">Data-efficient prediction of 3D microstructures, properties, and performance from limited 2D observations — expanding local surface data into representative 3D volumes.</p>
-      <a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#thrust3-detail" role="button" aria-expanded="false" aria-controls="thrust3-detail">
-        Show details
-      </a>
     </div>
-    <div class="collapse" id="thrust3-detail">
-      <div class="card-body border-top">
-        <img src="{{ '/assets/img/2D3DMicro.png' | relative_url }}" alt="Sparse-to-Rich 2D/3D material behavior prediction" class="thrust-detail-img">
-        <p><strong>Overview.</strong> This thrust aims to enable data-efficient prediction of 3D material structures, properties, and performance from limited 2D observations. By expanding local 2D surface information into representative 3D microstructures, this approach provides a pathway to infer internal structures that are difficult to directly observe. The reconstructed 3D data will be validated using paired 2D/3D datasets and integrated with uncertainty quantification and physics-guided analysis for robust materials prediction.</p>
-        <p class="mb-2"><strong>Key topics.</strong></p>
-        <ul class="mb-0">
-          <li>2D-to-3D dimensionality expansion of material microstructures</li>
-          <li>Surface-to-volume inference for internal 3D structure prediction</li>
-          <li>Data-efficient 3D property and performance prediction from local 2D data</li>
-          <li>Paired 2D/3D dataset construction for model training and validation</li>
-          <li>Uncertainty quantification for reliable 2D-to-3D prediction</li>
-          <li>Physics-guided validation of predicted 3D microstructures and behavior</li>
-        </ul>
-      </div>
+    <div class="card-body border-top">
+      <img src="{{ '/assets/img/2D3DMicro.png' | relative_url }}" alt="Sparse-to-Rich 2D/3D material behavior prediction" class="thrust-detail-img">
+      <p><strong>Overview.</strong> This thrust aims to enable data-efficient prediction of 3D material structures, properties, and performance from limited 2D observations. By expanding local 2D surface information into representative 3D microstructures, this approach provides a pathway to infer internal structures that are difficult to directly observe. The reconstructed 3D data will be validated using paired 2D/3D datasets and integrated with uncertainty quantification and physics-guided analysis for robust materials prediction.</p>
+      <p class="mb-2"><strong>Key topics.</strong></p>
+      <ul class="mb-0">
+        <li>2D-to-3D dimensionality expansion of material microstructures</li>
+        <li>Surface-to-volume inference for internal 3D structure prediction</li>
+        <li>Data-efficient 3D property and performance prediction from local 2D data</li>
+        <li>Paired 2D/3D dataset construction for model training and validation</li>
+        <li>Uncertainty quantification for reliable 2D-to-3D prediction</li>
+        <li>Physics-guided validation of predicted 3D microstructures and behavior</li>
+      </ul>
     </div>
   </div>
 
@@ -106,24 +91,19 @@ We pursue four tightly coupled research thrusts. Each one is useful on its own, 
     </div>
     <div class="card-body">
       <p class="card-text mb-3">Digital twins, design automation, and end-to-end pipelines that connect CAD, simulation, and manufacturing data.</p>
-      <a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#thrust4-detail" role="button" aria-expanded="false" aria-controls="thrust4-detail">
-        Show details
-      </a>
     </div>
-    <div class="collapse" id="thrust4-detail">
-      <div class="card-body border-top">
-        <img src="{{ '/assets/img/AgenticAI.png' | relative_url }}" alt="Digital engineering & agentic AI for advanced manufacturing" class="thrust-detail-img">
-        <p><strong>Overview.</strong> We build agentic AI and digital infrastructure — digital twins, design automation pipelines, and process-aware data layers — that enables generative models, simulations, and manufacturing processes to interact within closed-loop engineering workflows. The aim is reusable engineering software, not one-off scripts: shared representations of geometry, process, material, and performance that can evolve across projects.</p>
-        <p class="mb-2"><strong>Key topics.</strong></p>
-        <ul class="mb-0">
-          <li>Agentic AI for advanced manufacturing workflows</li>
-          <li>Digital twins of additive and hybrid manufacturing processes</li>
-          <li>Design automation pipelines linking CAD, simulation, and machine learning</li>
-          <li>Process-aware data infrastructure for manufacturing</li>
-          <li>Design–simulate–manufacture workflows</li>
-          <li>AI-agent-assisted decision-making for materials, process, and part design</li>
-        </ul>
-      </div>
+    <div class="card-body border-top">
+      <img src="{{ '/assets/img/AgenticAI.png' | relative_url }}" alt="Digital engineering & agentic AI for advanced manufacturing" class="thrust-detail-img">
+      <p><strong>Overview.</strong> We build agentic AI and digital infrastructure — digital twins, design automation pipelines, and process-aware data layers — that enables generative models, simulations, and manufacturing processes to interact within closed-loop engineering workflows. The aim is reusable engineering software, not one-off scripts: shared representations of geometry, process, material, and performance that can evolve across projects.</p>
+      <p class="mb-2"><strong>Key topics.</strong></p>
+      <ul class="mb-0">
+        <li>Agentic AI for advanced manufacturing workflows</li>
+        <li>Digital twins of additive and hybrid manufacturing processes</li>
+        <li>Design automation pipelines linking CAD, simulation, and machine learning</li>
+        <li>Process-aware data infrastructure for manufacturing</li>
+        <li>Design–simulate–manufacture workflows</li>
+        <li>AI-agent-assisted decision-making for materials, process, and part design</li>
+      </ul>
     </div>
   </div>
 
