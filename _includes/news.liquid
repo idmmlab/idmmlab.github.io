@@ -15,16 +15,35 @@
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-            <td>
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% endif %}
-            </td>
-          </tr>
+          {% assign slug = item.path | replace: '_news/', '' | replace: '.md', '' %}
+          {% if include.compact %}
+            <tr>
+              <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+              <td>
+                <a class="news-compact-link" href="{{ '/news/' | relative_url }}#news-{{ slug }}">
+                  {% if item.short %}
+                    {{ item.short | markdownify | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% else %}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% endif %}
+                </a>
+              </td>
+            </tr>
+          {% else %}
+            <tr id="news-{{ slug }}">
+              <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+              <td>
+                {% if item.image %}
+                  <img
+                    src="{{ item.image | relative_url }}"
+                    alt="{{ item.image_alt | default: '' }}"
+                    class="news-detail-img"
+                    style="float: right; max-width: 130px; margin: 0 0 0.75rem 1rem; border-radius: 4px;">
+                {% endif %}
+                {{ item.content | emojify }}
+              </td>
+            </tr>
+          {% endif %}
         {% endfor %}
       </table>
     </div>
