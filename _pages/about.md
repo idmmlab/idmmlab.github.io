@@ -37,4 +37,4 @@ We are recruiting **postdoctoral researchers**, **graduate students (M.S. / Ph.D
 
 ---
 
-<small>숭실대학교 기계공학과 IDMM 연구실은 생성형 AI, 멀티피직스 모델링, 디지털 엔지니어링을 결합하여 재료·부품·첨단 제조 시스템을 설계하는 계산 방법론을 연구합니다. 박사후연구원, 석·박사 과정생, 학부 인턴을 모집하고 있습니다 — 자세한 사항은 <a href="{{ '/join/' | relative_url }}">Join Us</a> 페이지를 참고해 주세요.</small>
+<small>숭실대학교 기계공학부 지능형 소재 및 제조 설계 연구실 (IDMM Lab)은 생성형 AI, 멀티피직스 모델링, 디지털 엔지니어링을 결합하여 재료·부품·첨단 제조 시스템을 설계하는 계산 방법론을 연구합니다. 박사후연구원, 석·박사 과정생, 학부 인턴을 모집하고 있습니다 — 자세한 사항은 <a href="{{ '/join/' | relative_url }}">Join Us</a> 페이지를 참고해 주세요.</small>
