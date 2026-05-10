@@ -17,15 +17,17 @@
         {% for item in news limit: news_limit %}
           {% assign slug = item.path | replace: '_news/', '' | replace: '.md', '' %}
           {% if include.compact %}
+            {% assign compact_html = item.content
+              | remove: '<p>'
+              | remove: '</p>'
+              | replace: '<a href=', '<span data-href='
+              | replace: '</a>', '</span>'
+              | emojify %}
             <tr>
               <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
               <td>
                 <a class="news-compact-link" href="{{ '/news/' | relative_url }}#news-{{ slug }}">
-                  {% if item.short %}
-                    {{ item.short | markdownify | remove: '<p>' | remove: '</p>' | emojify }}
-                  {% else %}
-                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                  {% endif %}
+                  {{ compact_html }}
                 </a>
               </td>
             </tr>
