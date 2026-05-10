@@ -19,6 +19,8 @@ The IDMM Lab (지능형 소재 및 제조 설계 연구실) is recruiting gradua
 - Multiphysics modeling of additive manufacturing and physics-informed surrogate models
 - Agentic AI for aerospace and mobility component CAD generation and parameterization
 
+**Preferred experience.** Familiarity with Python; prior coding experience in numerical analysis (e.g., FEM, FVM); research experience in AI applications (deep learning, generative models, surrogate modeling).
+
 **What to send.**
 
 1. CV.
@@ -40,6 +42,8 @@ Send the above to the PI email below.
 - 멀티스케일 해석 기반 소재-부품 통합 역설계
 - 적층제조 공정 다물리 해석 및 Physics-informed 대리모델 개발
 - Agentic AI 기반 항공우주·모빌리티 부품 CAD 생성 및 파라메트리제이션
+
+**우대 사항.** Python 및 수치해석(FEM, FVM 등) 코드 작성 경험, AI 어플리케이션(딥러닝, 생성 모델, 대리모델 등) 연구 경험.
 
 **보내주실 자료.**
 
