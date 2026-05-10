@@ -51,16 +51,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/join/";
           },
-        },{id: "news-prof-kang-hyun-lee-joined-the-school-of-mechanical-engineering-at-soongsil-university-as-assistant-professor-after-a-postdoctoral-appointment-at-mit",
-          title: 'Prof. Kang-Hyun Lee joined the School of Mechanical Engineering at Soongsil University as...',
+        },{id: "news-announcement-2",
+          title: 'Announcement_2',
           description: "",
-          section: "News",},{id: "news-idmm-lab-officially-launched-at-the-school-of-mechanical-engineering-soongsil-university-we-are-actively-recruiting-graduate-students-and-undergraduate-researchers-see-join-us",
-          title: 'IDMM Lab officially launched at the School of Mechanical Engineering, Soongsil University. We...',
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-announcement-1",
+          title: 'Announcement_1',
           description: "",
-          section: "News",},{id: "news-our-paper-modeling-the-hierarchical-microstructure-of-l-pbf-ti-6al-4v-a-multiphysics-framework-for-texture-induced-mechanical-anisotropy-has-been-accepted-in-virtual-and-physical-prototyping-if-8-8-jcr-top-10-engineering-amp-amp-manufacturing-virtual-and-physical-prototyping-if-8-8-jcr-상위-10-sci-논문-accepted",
-          title: 'Our paper “Modeling the hierarchical microstructure of L-PBF Ti-6Al-4V: a multiphysics framework for...',
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "news-announcement-3",
+          title: 'Announcement_3',
           description: "",
-          section: "News",},{
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
