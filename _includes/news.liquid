@@ -40,7 +40,7 @@
                     src="{{ item.image | relative_url }}"
                     alt="{{ item.image_alt | default: '' }}"
                     class="news-detail-img"
-                    style="float: right; max-width: 130px; margin: 0 0 0.75rem 1rem; border-radius: 4px;">
+                    style="float: right; max-width: {{ item.image_width | default: '130px' }}; margin: 0 0 0.75rem 1rem; border-radius: 4px;">
                 {% endif %}
                 {{ item.content | emojify }}
               </td>
