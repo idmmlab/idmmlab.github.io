@@ -80,6 +80,8 @@ nav_order: 2
       <li>Advanced Engineering Informatics (Elsevier)</li>
       <li>Journal of Building Engineering (Elsevier)</li>
       <li>Expert Systems with Applications (Elsevier)</li>
+      <li>Applied Energy (Elsevier)</li>
+      <li>Journal of Computational Design and Engineering (Oxford Academic)</li>
     </ul>
   </div>
 
