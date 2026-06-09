@@ -1,0 +1,251 @@
+{% comment %}
+  IDMM Lab graduate-student recruitment popup.
+  Renders on every page; dismissible per session ("닫기") or for 24h
+  ("24시간 동안 보지 않기") via localStorage.
+{% endcomment %}
+
+<div id="recruitment-popup" class="recruitment-popup" hidden>
+  <div class="recruitment-popup-backdrop" data-popup-close="session"></div>
+  <div
+    class="recruitment-popup-dialog"
+    role="dialog"
+    aria-labelledby="recruitment-popup-title"
+    aria-modal="true"
+  >
+    <button
+      type="button"
+      class="recruitment-popup-x"
+      data-popup-close="session"
+      aria-label="Close"
+    >
+      &times;
+    </button>
+
+    <h3 id="recruitment-popup-title">대학원생 모집 공고</h3>
+    <p class="recruitment-popup-subtitle">
+      숭실대학교 기계공학부 지능형 소재 및 제조 설계 연구실 (IDMM Lab)
+    </p>
+
+    <p>
+      숭실대학교 IDMM Lab (지능형 소재 및 제조 설계 연구실)은 생성형 AI,
+      멀티피직스 모델링, 디지털 엔지니어링을 결합한 계산 방법론을
+      연구합니다. 사람이 직접 설계하기 어려운 재료·부품·제조 공정을
+      설계하고, 이러한 방법론을 다양한 문제에 재사용 가능하게 만드는
+      디지털 인프라를 함께 구축합니다.
+    </p>
+
+    <h4 class="recruitment-popup-h4">지원 자격 및 채용 인원</h4>
+    <ul class="recruitment-popup-list">
+      <li>대학원생 (석사 / 박사 / 석박사통합) &mdash; 0명</li>
+      <li>학부 인턴 &mdash; 0명</li>
+    </ul>
+
+    <h4 class="recruitment-popup-h4">지원 혜택</h4>
+    <ul class="recruitment-popup-list">
+      <li>연구과제 수행에 따른 매월 인건비 지원</li>
+      <li>연구 성과에 따른 성과급 추가 지급</li>
+      <li>국내외 학술대회 참여 지원</li>
+    </ul>
+
+    <h4 class="recruitment-popup-h4">접수 방법</h4>
+    <p class="recruitment-popup-tight">
+      온라인 접수 &mdash;
+      <a href="mailto:kanghl@ssu.ac.kr?subject=IDMM%20Lab%20%EB%8C%80%ED%95%99%EC%9B%90%EC%83%9D%20%EC%A7%80%EC%9B%90">kanghl@ssu.ac.kr</a>
+      로 <strong>이력서(CV)</strong>와 <strong>관심 있는 연구 분야</strong>를 보내 주시기 바랍니다.
+    </p>
+
+    <p class="recruitment-popup-apply">
+      <strong>문의</strong> &mdash; 숭실대학교 이강현 교수
+      (<a href="mailto:kanghl@ssu.ac.kr">kanghl@ssu.ac.kr</a>)
+    </p>
+
+    <p class="recruitment-popup-note">
+      상세한 연구 내용은
+      <a href="{{ '/research/' | relative_url }}">연구 페이지</a>와
+      <a href="{{ '/' | relative_url }}">홈페이지</a>를 참고해 주세요.
+    </p>
+
+    <div class="recruitment-popup-footer">
+      <button type="button" class="recruitment-popup-24h" data-popup-close="24h">
+        24시간 동안 보지 않기
+      </button>
+      <button type="button" class="recruitment-popup-ok btn btn-sm btn-primary" data-popup-close="session">
+        닫기
+      </button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .recruitment-popup[hidden] {
+    display: none !important;
+  }
+  .recruitment-popup {
+    position: fixed;
+    inset: 0;
+    z-index: 1080;
+  }
+  .recruitment-popup-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+  }
+  .recruitment-popup-dialog {
+    position: relative;
+    max-width: 560px;
+    width: calc(100% - 2rem);
+    margin: 6vh auto 0;
+    background: var(--global-bg-color, #ffffff);
+    color: var(--global-text-color, #212529);
+    border-radius: 10px;
+    padding: 1.6rem 1.75rem 1.25rem;
+    box-shadow: 0 14px 48px rgba(0, 0, 0, 0.28);
+    max-height: 88vh;
+    overflow-y: auto;
+  }
+  .recruitment-popup-x {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.8rem;
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.8rem;
+    line-height: 1;
+    opacity: 0.55;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+  }
+  .recruitment-popup-x:hover {
+    opacity: 1;
+  }
+  .recruitment-popup-dialog h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+  .recruitment-popup-subtitle {
+    margin: 0 0 1rem;
+    color: var(--global-theme-color, #b31b1b);
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  .recruitment-popup-dialog p {
+    margin-bottom: 0.75rem;
+    font-size: 0.93rem;
+    line-height: 1.55;
+  }
+  .recruitment-popup-h4 {
+    margin: 0.9rem 0 0.4rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--global-theme-color, #b31b1b);
+  }
+  .recruitment-popup-list {
+    margin: 0 0 0.5rem;
+    padding-left: 1.2rem;
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+  .recruitment-popup-list li {
+    margin-bottom: 0.15rem;
+  }
+  .recruitment-popup-tight {
+    margin-bottom: 0.55rem;
+  }
+  .recruitment-popup-apply {
+    background: rgba(0, 0, 0, 0.04);
+    border-left: 3px solid var(--global-theme-color, #b31b1b);
+    padding: 0.55rem 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.85rem;
+  }
+  html[data-theme="dark"] .recruitment-popup-apply {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  .recruitment-popup-note {
+    font-size: 0.85rem;
+    opacity: 0.78;
+    margin-bottom: 0.5rem;
+  }
+  .recruitment-popup-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1.1rem;
+    padding-top: 0.85rem;
+    border-top: 1px solid var(--global-divider-color, #dee2e6);
+    flex-wrap: wrap;
+  }
+  .recruitment-popup-24h {
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.88rem;
+    opacity: 0.7;
+  }
+  .recruitment-popup-24h:hover {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  (function () {
+    var STORAGE_24H = 'idmm-recruitment-dismissed-until';
+    var STORAGE_SESSION = 'idmm-recruitment-dismissed-session';
+    var popup = document.getElementById('recruitment-popup');
+    if (!popup) return;
+
+    function dismissedFor24h() {
+      try {
+        var until = parseInt(localStorage.getItem(STORAGE_24H) || '0', 10);
+        return Date.now() < until;
+      } catch (e) {
+        return false;
+      }
+    }
+    function dismissedForSession() {
+      try {
+        return sessionStorage.getItem(STORAGE_SESSION) === '1';
+      } catch (e) {
+        return false;
+      }
+    }
+    function show() {
+      popup.hidden = false;
+      document.body.style.overflow = 'hidden';
+    }
+    function hide(mode) {
+      popup.hidden = true;
+      document.body.style.overflow = '';
+      try {
+        if (mode === '24h') {
+          localStorage.setItem(STORAGE_24H, String(Date.now() + 24 * 60 * 60 * 1000));
+        } else {
+          sessionStorage.setItem(STORAGE_SESSION, '1');
+        }
+      } catch (e) {}
+    }
+
+    if (!dismissedFor24h() && !dismissedForSession()) {
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', show);
+      } else {
+        show();
+      }
+    }
+
+    popup.addEventListener('click', function (e) {
+      var trigger = e.target.closest('[data-popup-close]');
+      if (!trigger) return;
+      hide(trigger.getAttribute('data-popup-close'));
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !popup.hidden) hide('session');
+    });
+  })();
+</script>
