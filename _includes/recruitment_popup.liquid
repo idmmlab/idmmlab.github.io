@@ -219,7 +219,6 @@
 <script>
   (function () {
     var STORAGE_24H = 'idmm-recruitment-dismissed-until';
-    var STORAGE_SESSION = 'idmm-recruitment-dismissed-session';
     var popup = document.getElementById('recruitment-popup');
     if (!popup) return;
 
@@ -231,13 +230,6 @@
         return false;
       }
     }
-    function dismissedForSession() {
-      try {
-        return sessionStorage.getItem(STORAGE_SESSION) === '1';
-      } catch (e) {
-        return false;
-      }
-    }
     function show() {
       popup.hidden = false;
       document.body.style.overflow = 'hidden';
@@ -245,16 +237,14 @@
     function hide(mode) {
       popup.hidden = true;
       document.body.style.overflow = '';
-      try {
-        if (mode === '24h') {
+      if (mode === '24h') {
+        try {
           localStorage.setItem(STORAGE_24H, String(Date.now() + 24 * 60 * 60 * 1000));
-        } else {
-          sessionStorage.setItem(STORAGE_SESSION, '1');
-        }
-      } catch (e) {}
+        } catch (e) {}
+      }
     }
 
-    if (!dismissedFor24h() && !dismissedForSession()) {
+    if (!dismissedFor24h()) {
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', show);
       } else {
@@ -268,7 +258,7 @@
       hide(trigger.getAttribute('data-popup-close'));
     });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && !popup.hidden) hide('session');
+      if (e.key === 'Escape' && !popup.hidden) hide('transient');
     });
   })();
 </script>
