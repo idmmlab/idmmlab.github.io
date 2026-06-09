@@ -10,7 +10,7 @@ Mechanical Engineering Seminar, Seoul National University
 *"Multiphysics Modeling of Process–Structure–Property Linkages and
 Inverse Design for Metal Additive Manufacturing."* June 1, 2026 (Mon)
 14:00–15:00.
-&middot; 서울대학교 기계공학부 세미나 (호스트: 이호원 교수):
+&middot; 서울대학교 기계공학부 세미나 (호스트: Prof. Howon Lee):
 *"Multiphysics Modeling of Process–Structure–Property Linkages and
 Inverse Design for Metal Additive Manufacturing."* 2026년 6월 1일 (월)
 14:00–15:00.
