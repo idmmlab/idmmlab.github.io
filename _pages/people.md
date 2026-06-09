@@ -86,15 +86,10 @@ nav_order: 2
   </div>
 
   <div class="tab-pane fade" id="students" role="tabpanel" aria-labelledby="students-tab">
-    <h3 class="mt-3">Graduate Students</h3>
-    <p>We are recruiting M.S. and Ph.D. students. See <a href="{{ '/join/' | relative_url }}">Join Us</a> for what to send.</p>
-
-    <h3>Undergraduate Researchers</h3>
-    <ul>
-      <li>김성준 (Kim Seong-Jun)</li>
-      <li>이경관 (Lee Kyeong-Kwan)</li>
+    <ul class="mt-3">
+      <li>김성준 (Kim Seong-Jun) — Undergraduate Researcher</li>
+      <li>이경관 (Lee Kyeong-Kwan) — Undergraduate Researcher</li>
     </ul>
-    <p>Motivated undergraduates are welcome to contact Prof. Lee — see <a href="{{ '/join/' | relative_url }}">Join Us</a>.</p>
   </div>
 
   <div class="tab-pane fade" id="alumni" role="tabpanel" aria-labelledby="alumni-tab">
