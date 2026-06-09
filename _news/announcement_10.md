@@ -3,6 +3,9 @@ layout: post
 date: 2026-06-10 11:00:00+0900
 inline: false
 related_posts: false
+image: /assets/img/publication_preview/vpp.jpg
+image_alt: Virtual and Physical Prototyping
+image_width: 180px
 ---
 
 Our paper *"Modelling the hierarchical microstructure of L-PBF
