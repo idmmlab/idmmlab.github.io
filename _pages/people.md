@@ -89,7 +89,6 @@ nav_order: 2
   </div>
 
   <div class="tab-pane fade" id="students" role="tabpanel" aria-labelledby="students-tab">
-    <p class="mt-3">No current students. Motivated graduate applicants and undergraduate researchers are welcome — see <a href="{{ '/join/' | relative_url }}">Join Us</a>.</p>
   </div>
 
   <div class="tab-pane fade" id="alumni" role="tabpanel" aria-labelledby="alumni-tab">
