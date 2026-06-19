@@ -294,6 +294,16 @@ body.layout-about .post,
   background-color: transparent;
 }
 
+// Secondary affiliations listed under the PI's primary Assistant
+// Professor line on the Team page (MIT Research Affiliate, KSMTE
+// Director, etc.). Smaller and muted so the primary line reads as
+// the main affiliation — visual hierarchy via size+color, not weight.
+.pi-secondary-affiliation {
+  font-size: 0.875rem;
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+}
+
 // Photo placeholder for student entries that don't yet have a portrait.
 // A neutral square block with a centered user icon — matches the visual
 // footprint of the PI photo so list rows stay aligned.
