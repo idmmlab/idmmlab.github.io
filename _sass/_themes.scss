@@ -306,5 +306,10 @@ body.layout-about .post,
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
   color: var(--global-text-color-light);
-  font-size: 2.5rem;
+  overflow: hidden;
+}
+
+.student-photo-placeholder svg {
+  width: 55%;
+  height: 55%;
 }
