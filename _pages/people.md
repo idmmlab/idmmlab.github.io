@@ -37,7 +37,7 @@ nav_order: 2
         <h3 style="margin-top: 0;">Kang-Hyun Lee, Ph.D.</h3>
         <p>
           Assistant Professor, School of Mechanical Engineering, Soongsil University<br>
-          <small>Research Affiliate, Massachusetts Institute of Technology (MIT)</small>
+          Research Affiliate, Massachusetts Institute of Technology (MIT)
         </p>
         <p>
           📧 <a href="mailto:kanghl@ssu.ac.kr">kanghl@ssu.ac.kr</a>
