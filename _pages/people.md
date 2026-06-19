@@ -89,11 +89,28 @@ nav_order: 2
   </div>
 
   <div class="tab-pane fade" id="students" role="tabpanel" aria-labelledby="students-tab">
-    <h4 class="mt-3">Undergraduate Researchers</h4>
-    <ul>
-      <li>김성준 (Kim Seong-Jun)</li>
-      <li>이경관 (Lee Kyeong-Kwan)</li>
-    </ul>
+    <div class="row mt-3 align-items-center">
+      <div class="col-sm-2 col-3">
+        <div class="student-photo-placeholder rounded">
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+      <div class="col-sm-10 col-9">
+        <h5 style="margin: 0;">김성준 (Kim Seong-Jun)</h5>
+        <p style="margin: 0;">시뮬레이션 + AI 기반 설계 자동화</p>
+      </div>
+    </div>
+    <div class="row mt-3 align-items-center">
+      <div class="col-sm-2 col-3">
+        <div class="student-photo-placeholder rounded">
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+      <div class="col-sm-10 col-9">
+        <h5 style="margin: 0;">이경관 (Lee Kyeong-Kwan)</h5>
+        <p style="margin: 0;">소재 물성 예측 대리 모델 개발</p>
+      </div>
+    </div>
   </div>
 
   <div class="tab-pane fade" id="alumni" role="tabpanel" aria-labelledby="alumni-tab">

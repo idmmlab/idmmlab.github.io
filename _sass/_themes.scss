@@ -293,3 +293,18 @@ body.layout-about .post,
   border-bottom-color: var(--global-theme-color);
   background-color: transparent;
 }
+
+// Photo placeholder for student entries that don't yet have a portrait.
+// A neutral square block with a centered user icon — matches the visual
+// footprint of the PI photo so list rows stay aligned.
+.student-photo-placeholder {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+  font-size: 2.5rem;
+}
