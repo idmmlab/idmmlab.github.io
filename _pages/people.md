@@ -89,6 +89,11 @@ nav_order: 2
   </div>
 
   <div class="tab-pane fade" id="students" role="tabpanel" aria-labelledby="students-tab">
+    <h4 class="mt-3">Undergraduate Researchers</h4>
+    <ul>
+      <li>김성준 (Kim Seong-Jun)</li>
+      <li>이경관 (Lee Kyeong-Kwan)</li>
+    </ul>
   </div>
 
   <div class="tab-pane fade" id="alumni" role="tabpanel" aria-labelledby="alumni-tab">
