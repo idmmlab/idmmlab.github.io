@@ -39,8 +39,7 @@ nav_order: 2
           Assistant Professor, School of Mechanical Engineering, Soongsil University
         </p>
         <p class="pi-secondary-affiliation">
-          Research Affiliate, Massachusetts Institute of Technology (MIT)<br>
-          Board Member, The Korean Society of Manufacturing Technology Engineers (KSMTE)
+          Research Affiliate, Massachusetts Institute of Technology (MIT)
         </p>
         <p>
           📧 <a href="mailto:kanghl@ssu.ac.kr">kanghl@ssu.ac.kr</a>
