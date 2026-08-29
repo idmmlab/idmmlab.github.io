@@ -24,6 +24,7 @@ keywords: >
   metal additive manufacturing, inverse design, scientific machine learning, Soongsil University,
   Kang-Hyun Lee
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+timezone: Asia/Seoul # build in KST so news dates render on the intended Korean day
 icon: IDMM_logo.png # favicon shown next to the browser-tab title (image in /assets/img/)
 
 url: https://idmmlab.github.io
