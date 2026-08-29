@@ -3,6 +3,9 @@ layout: post
 date: 2026-07-15 09:00:00+0900
 inline: false
 related_posts: false
+image: /assets/img/KSMTE/invited_talk.jpg
+image_alt: KSMTE 2026 Annual Spring Conference invited talk
+image_width: 240px
 ---
 
 Gave an **invited talk** at the **2026 Annual Spring Conference of the
