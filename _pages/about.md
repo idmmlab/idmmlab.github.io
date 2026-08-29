@@ -9,8 +9,7 @@ selected_papers: false
 social: false
 
 announcements:
-  enabled: true
-  scrollable: false # render the full list inline instead of a fixed-height scroll box
+  enabled: true # home renders the full news list with images (see _layouts/about.liquid)
 
 latest_posts:
   enabled: false
