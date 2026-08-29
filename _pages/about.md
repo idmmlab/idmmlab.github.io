@@ -5,13 +5,12 @@ permalink: /
 nav: true
 nav_order: 1
 
-selected_papers: true
+selected_papers: false
 social: false
 
 announcements:
   enabled: true
-  scrollable: true
-  limit: 5
+  scrollable: false # render the full list inline instead of a fixed-height scroll box
 
 latest_posts:
   enabled: false
