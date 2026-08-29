@@ -121,6 +121,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_13/";
+            },},{id: "news-announcement-16",
+          title: 'Announcement_16',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_16/";
             },},{
         id: 'social-cv',
         title: 'CV',
