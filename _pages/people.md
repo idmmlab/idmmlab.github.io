@@ -88,6 +88,7 @@ nav_order: 2
       <li>Applied Energy (Elsevier)</li>
       <li>Journal of Computational Design and Engineering (Oxford Academic)</li>
     </ul>
+
   </div>
 
   <div class="tab-pane fade" id="students" role="tabpanel" aria-labelledby="students-tab">

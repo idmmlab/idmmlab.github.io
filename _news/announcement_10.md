@@ -8,11 +8,11 @@ image_alt: Virtual and Physical Prototyping
 image_width: 180px
 ---
 
-Our paper *"Modelling the hierarchical microstructure of L-PBF
+Our paper _"Modelling the hierarchical microstructure of L-PBF
 Ti–6Al–4V: a multiphysics framework for texture-induced mechanical
-anisotropy"* published in *Virtual and Physical Prototyping*.
-&middot; *"Modelling the hierarchical microstructure of L-PBF
+anisotropy"_ published in _Virtual and Physical Prototyping_.
+&middot; _"Modelling the hierarchical microstructure of L-PBF
 Ti–6Al–4V: a multiphysics framework for texture-induced mechanical
-anisotropy"* 논문이 *Virtual and Physical Prototyping*에 게재됨.
+anisotropy"_ 논문이 *Virtual and Physical Prototyping*에 게재됨.
 
 [Read the paper](https://www.tandfonline.com/doi/full/10.1080/17452759.2026.2666956)

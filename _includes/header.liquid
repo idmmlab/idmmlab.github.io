@@ -23,9 +23,11 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          <!-- All nav-enabled pages, sorted by nav_order. The home page (permalink: /)
-               opts in via nav: true / nav_order: 1 in _pages/about.md, so it renders
-               once via this loop and not via a separate hardcoded block. -->
+          <!--
+            All nav-enabled pages, sorted by nav_order. The home page (permalink: /)
+            opts in via nav: true / nav_order: 1 in _pages/about.md, so it renders
+            once via this loop and not via a separate hardcoded block.
+          -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}

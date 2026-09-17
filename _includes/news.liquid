@@ -22,7 +22,8 @@
               | remove: '</p>'
               | replace: '<a href=', '<span data-href='
               | replace: '</a>', '</span>'
-              | emojify %}
+              | emojify
+            %}
             <tr>
               <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
               <td>
@@ -38,12 +39,14 @@
                 {% if item.images %}
                   <div
                     class="news-detail-img-stack"
-                    style="float: right; width: {{ item.image_width | default: '130px' }}; margin: 0 0 0.75rem 1rem;">
+                    style="float: right; width: {{ item.image_width | default: '130px' }}; margin: 0 0 0.75rem 1rem;"
+                  >
                     {% for img_src in item.images %}
                       <img
                         src="{{ img_src | relative_url }}"
                         alt="{{ item.image_alt | default: '' }}"
-                        style="width: 100%; border-radius: 4px;{% unless forloop.first %} margin-top: 0.5rem;{% endunless %}">
+                        style="width: 100%; border-radius: 4px;{% unless forloop.first %} margin-top: 0.5rem;{% endunless %}"
+                      >
                     {% endfor %}
                   </div>
                 {% elsif item.image %}
@@ -51,7 +54,8 @@
                     src="{{ item.image | relative_url }}"
                     alt="{{ item.image_alt | default: '' }}"
                     class="news-detail-img"
-                    style="float: right; max-width: {{ item.image_width | default: '130px' }}; margin: 0 0 0.75rem 1rem; border-radius: 4px;">
+                    style="float: right; max-width: {{ item.image_width | default: '130px' }}; margin: 0 0 0.75rem 1rem; border-radius: 4px;"
+                  >
                 {% endif %}
                 {{ item.content | emojify }}
               </td>

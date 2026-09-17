@@ -16,7 +16,7 @@ Master content document for the **IDMM Lab** (Intelligent Design for Materials &
 
 ## 2. Mission
 
-**EN.** We develop computational methods that connect *generative AI*, *multiphysics modeling*, and *digital engineering* to design materials, parts, and manufacturing processes that are difficult — or impossible — to design by hand. Our goal is to shorten the loop between scientific understanding and engineered hardware, especially for advanced manufacturing systems where geometry, process, and material behavior are tightly coupled.
+**EN.** We develop computational methods that connect _generative AI_, _multiphysics modeling_, and _digital engineering_ to design materials, parts, and manufacturing processes that are difficult — or impossible — to design by hand. Our goal is to shorten the loop between scientific understanding and engineered hardware, especially for advanced manufacturing systems where geometry, process, and material behavior are tightly coupled.
 
 **KO.** 본 연구실은 생성형 AI, 멀티피직스 모델링, 디지털 엔지니어링을 결합하여 사람의 직관만으로는 설계가 어려운 재료·부품·제조 공정을 자동화·최적화하는 계산 방법론을 개발합니다. 형상, 공정, 재료 거동이 강하게 결합된 첨단 제조 시스템에서 과학적 이해와 실제 하드웨어 사이의 사이클을 단축하는 것을 목표로 합니다.
 
@@ -40,7 +40,7 @@ Generative models that propose feasible, manufacturable, performance-driven desi
 
 ### Thrust 2 — Multiphysics & Multiscale Modeling
 
-Physics-based simulation that bridges scales — from microstructure evolution and process physics, up to component-level mechanical and thermal performance. Our emphasis is on simulations that are *fast enough to learn from* and *accurate enough to trust*, so they can be coupled with data-driven design.
+Physics-based simulation that bridges scales — from microstructure evolution and process physics, up to component-level mechanical and thermal performance. Our emphasis is on simulations that are _fast enough to learn from_ and _accurate enough to trust_, so they can be coupled with data-driven design.
 
 ### Thrust 3 — Digital Engineering for Advanced Manufacturing
 
@@ -52,7 +52,7 @@ Use this structure for `_pages/research.md`. Section 8 below provides the bottom
 
 ### Intro
 
-We pursue three tightly coupled research thrusts. Each one is useful on its own, but the lab's distinctive contribution lies at their intersection: design methods that are simultaneously *generative*, *physically grounded*, and *manufacturable*.
+We pursue three tightly coupled research thrusts. Each one is useful on its own, but the lab's distinctive contribution lies at their intersection: design methods that are simultaneously _generative_, _physically grounded_, and _manufacturable_.
 
 ### Thrust 1 — Generative AI for Design
 
@@ -65,7 +65,7 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
 - Manufacturability-aware generation (build orientation, overhangs, support, residual stress)
 - Learned design representations (implicit fields, graphs, voxels)
 
-**Representative projects.** *(Coming soon — placeholder for ongoing work.)*
+**Representative projects.** _(Coming soon — placeholder for ongoing work.)_
 
 ### Thrust 2 — Multiphysics & Multiscale Modeling
 
@@ -78,7 +78,7 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
 - Surrogate and reduced-order models for design-time use
 - Uncertainty quantification across scales
 
-**Representative projects.** *(Coming soon — placeholder for ongoing work.)*
+**Representative projects.** _(Coming soon — placeholder for ongoing work.)_
 
 ### Thrust 3 — Digital Engineering for Advanced Manufacturing
 
@@ -91,7 +91,7 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
 - Process-aware data infrastructure for AM
 - Closed-loop design–simulate–manufacture workflows
 
-**Representative projects.** *(Coming soon — placeholder for ongoing work.)*
+**Representative projects.** _(Coming soon — placeholder for ongoing work.)_
 
 ## 7. Keywords / Tags
 
@@ -122,14 +122,14 @@ A short list of concrete topics the lab is actively interested in. These are int
 
 `HOME · TEAM · RESEARCH · PUBLICATIONS · NEWS · JOIN US`
 
-| order | Label | Page file | permalink |
-|-------|-------|-----------|-----------|
-| 1 | Home | `_pages/about.md` | `/` |
-| 2 | Team | `_pages/people.md` | `/team/` |
-| 3 | Research | `_pages/research.md` | `/research/` |
-| 4 | Publications | `_pages/publications.md` | `/publications/` |
-| 5 | News | `_pages/news.md` | `/news/` |
-| 6 | Join Us | `_pages/joinus.md` | `/join/` |
+| order | Label        | Page file                | permalink        |
+| ----- | ------------ | ------------------------ | ---------------- |
+| 1     | Home         | `_pages/about.md`        | `/`              |
+| 2     | Team         | `_pages/people.md`       | `/team/`         |
+| 3     | Research     | `_pages/research.md`     | `/research/`     |
+| 4     | Publications | `_pages/publications.md` | `/publications/` |
+| 5     | News         | `_pages/news.md`         | `/news/`         |
+| 6     | Join Us      | `_pages/joinus.md`       | `/join/`         |
 
 The lab's mailing address and contact email live at the **bottom of the Join Us page**, so prospective students see application instructions and where to send materials in one place. There is no separate `Contact` tab.
 
@@ -143,7 +143,7 @@ Add `TEACHING` once the PI is teaching regular courses. Add `GALLERY` once there
 
 ## 10. Join Us
 
-**EN.** We are actively recruiting motivated graduate students (M.S. and Ph.D.) and undergraduate researchers interested in AI-driven design, multiphysics simulation, and advanced manufacturing. You do **not** need to have done all three; we expect students to grow into the intersection. A strong background in *one* of (a) machine learning / scientific computing, (b) mechanics or materials, or (c) manufacturing / CAD / simulation is a good starting point.
+**EN.** We are actively recruiting motivated graduate students (M.S. and Ph.D.) and undergraduate researchers interested in AI-driven design, multiphysics simulation, and advanced manufacturing. You do **not** need to have done all three; we expect students to grow into the intersection. A strong background in _one_ of (a) machine learning / scientific computing, (b) mechanics or materials, or (c) manufacturing / CAD / simulation is a good starting point.
 
 **What we look for.** Curiosity about the physics behind manufacturing, willingness to write real code, and the patience to debug simulations and models that do not work the first time. Prior research experience is helpful but not required.
 
@@ -151,7 +151,7 @@ Add `TEACHING` once the PI is teaching regular courses. Add `GALLERY` once there
 
 1. A short CV (one or two pages is fine).
 2. A short paragraph (a few sentences is enough) describing what you would like to work on and why.
-3. *(Optional)* Links or PDFs of any prior project, paper, or code you would like us to look at.
+3. _(Optional)_ Links or PDFs of any prior project, paper, or code you would like us to look at.
 
 Send the above to the lab email listed at the bottom of the Join Us page.
 
@@ -163,7 +163,7 @@ Send the above to the lab email listed at the bottom of the Join Us page.
 
 1. 짧은 CV (1~2 페이지면 충분합니다).
 2. 어떤 주제를 왜 하고 싶은지 짧은 단락 (몇 문장이면 충분합니다).
-3. *(선택)* 보여주고 싶은 이전 프로젝트, 논문, 또는 코드 링크/PDF.
+3. _(선택)_ 보여주고 싶은 이전 프로젝트, 논문, 또는 코드 링크/PDF.
 
 위 자료를 Join Us 페이지 하단에 안내된 연구실 이메일로 보내주시면 됩니다.
 
@@ -179,11 +179,11 @@ Prior to joining Soongsil University, Dr. Lee was a Postdoctoral Associate in th
 ### English (primary)
 
 > **Intelligent Design for Materials & Manufacturing Lab**
-> *AI-driven design and digital engineering for materials, parts, and advanced manufacturing systems.*
+> _AI-driven design and digital engineering for materials, parts, and advanced manufacturing systems._
 >
 > The IDMM Lab at Soongsil University builds computational methods that connect generative AI, multiphysics modeling, and digital engineering. We design materials, parts, and manufacturing processes that are difficult to design by hand — and we build the digital infrastructure that makes those methods reusable across problems.
 >
-> Our work cuts across three thrusts — *Generative AI for Design*, *Multiphysics & Multiscale Modeling*, and *Digital Engineering for Advanced Manufacturing* — with an application focus on metal additive manufacturing, lightweight structural components, and mechanical metamaterials.
+> Our work cuts across three thrusts — _Generative AI for Design_, _Multiphysics & Multiscale Modeling_, and _Digital Engineering for Advanced Manufacturing_ — with an application focus on metal additive manufacturing, lightweight structural components, and mechanical metamaterials.
 >
 > We are a new lab and we are recruiting. If you are a student interested in working at the intersection of AI, physics, and manufacturing, please see the **Join Us** page.
 
@@ -193,4 +193,4 @@ Prior to joining Soongsil University, Dr. Lee was a Postdoctoral Associate in th
 
 ---
 
-*Last updated: 2026-04-26.*
+_Last updated: 2026-04-26._

@@ -12,14 +12,14 @@ short: "Gave an **invited talk** at the **MRS Fall Meeting** on generative AI–
 ---
 
 Gave an **invited talk** at the **Materials Research Society (MRS) Fall
-Meeting**: *"Multiobjective Inverse Design of Compositionally Graded
+Meeting**: _"Multiobjective Inverse Design of Compositionally Graded
 Blisks for Reusable Turbomachinery Using Physics-Guided Diffusion
-Models."* The work is part of the **DARPA METALS program** — a
+Models."_ The work is part of the **DARPA METALS program** — a
 collaborative effort on generative AI–driven design frameworks for
 additive manufacturing of functionally graded materials (FGMs).
-&middot; **MRS Fall Meeting**에서 *"Multiobjective Inverse Design of
+&middot; **MRS Fall Meeting**에서 _"Multiobjective Inverse Design of
 Compositionally Graded Blisks for Reusable Turbomachinery Using
-Physics-Guided Diffusion Models"* 주제로 **초청 발표** 진행. DARPA
+Physics-Guided Diffusion Models"_ 주제로 **초청 발표** 진행. DARPA
 METALS 프로그램의 일환으로 기능성 경사 소재(FGM) 적층제조용 생성형 AI
 기반 설계 프레임워크를 다룸.
 
