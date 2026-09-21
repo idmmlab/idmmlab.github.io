@@ -34,6 +34,34 @@ Our computational work — multiphysics simulation, large-scale surrogate traini
 
   <div class="card facility-card mb-4 shadow-sm">
     <div class="facility-card-img">
+      <h3 class="mb-0">Workstations</h3>
+    </div>
+    <div class="card-body">
+      <p class="card-text mb-2">High-performance desktop workstations for interactive model development, CAD/CAE pre- and post-processing, and fast iteration.</p>
+      <p lang="ko" class="card-text mb-0">대화형 모델 개발, CAD/CAE 전·후처리, 빠른 반복 실험을 위한 고성능 워크스테이션입니다.</p>
+    </div>
+    <div class="card-body border-top">
+      <table class="facility-table">
+        <tbody>
+          <tr>
+            <th>Workstation A</th>
+            <td>2 &times; NVIDIA RTX 5090 (32 GB GDDR7)</td>
+          </tr>
+          <tr>
+            <th>Workstation B</th>
+            <td>2 &times; NVIDIA RTX PRO 6000 Blackwell (96 GB GDDR7)</td>
+          </tr>
+          <tr>
+            <th>Legacy workstations</th>
+            <td>2 &times; Supermicro dual-socket &middot; 2 &times; Xeon Gold 6240 (18C) &middot; 192 GB &middot; RTX 2080 Ti</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card facility-card mb-4 shadow-sm">
+    <div class="facility-card-img">
       <h3 class="mb-0">GPU Compute</h3>
     </div>
     <div class="card-body">
@@ -86,34 +114,6 @@ Our computational work — multiphysics simulation, large-scale surrogate traini
           <tr>
             <th>Interconnect</th>
             <td>10 Gbps L2 switched fabric &middot; 37U rack &middot; rack-mount UPS</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="card facility-card mb-4 shadow-sm">
-    <div class="facility-card-img">
-      <h3 class="mb-0">Workstations</h3>
-    </div>
-    <div class="card-body">
-      <p class="card-text mb-2">High-performance desktop workstations for interactive model development, CAD/CAE pre- and post-processing, and fast iteration.</p>
-      <p lang="ko" class="card-text mb-0">대화형 모델 개발, CAD/CAE 전·후처리, 빠른 반복 실험을 위한 고성능 워크스테이션입니다.</p>
-    </div>
-    <div class="card-body border-top">
-      <table class="facility-table">
-        <tbody>
-          <tr>
-            <th>Workstation A</th>
-            <td>2 &times; NVIDIA RTX 5090 (32 GB GDDR7)</td>
-          </tr>
-          <tr>
-            <th>Workstation B</th>
-            <td>2 &times; NVIDIA RTX PRO 6000 Blackwell (96 GB GDDR7)</td>
-          </tr>
-          <tr>
-            <th>Legacy workstations</th>
-            <td>2 &times; Supermicro dual-socket &middot; 2 &times; Xeon Gold 6240 (18C) &middot; 192 GB &middot; RTX 2080 Ti</td>
           </tr>
         </tbody>
       </table>
