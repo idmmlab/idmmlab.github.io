@@ -286,32 +286,22 @@ body.layout-about .post,
   margin: 0;
 }
 
-// Team page sub-tab navigation (Advisor / Students / Alumni). Keep the
-// tabs subtle so they read as section dividers rather than a primary
-// nav element.
-.team-tabs.nav-tabs {
-  border-bottom: 1px solid var(--global-divider-color);
-  margin-bottom: 1.5rem;
+// Team page sections (Advisor / Students / Alumni). The page used Bootstrap
+// tabs; it now stacks the three in one scrollable page, so each needs a
+// heading that reads as a divider without shouting.
+.team-section + .team-section {
+  margin-top: 2.75rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--global-divider-color);
 }
 
-.team-tabs .nav-link {
-  color: var(--global-text-color-light);
-  border: none;
-  border-bottom: 2px solid transparent;
-  padding: 0.6rem 1rem;
+.team-section-title {
+  margin: 0;
+  font-size: 1.05rem;
   font-weight: 500;
-}
-
-.team-tabs .nav-link:hover {
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
   color: var(--global-theme-color);
-  border-bottom-color: var(--global-divider-color);
-  background-color: transparent;
-}
-
-.team-tabs .nav-link.active {
-  color: var(--global-theme-color);
-  border-bottom-color: var(--global-theme-color);
-  background-color: transparent;
 }
 
 // Secondary affiliations listed under the PI's primary Assistant
