@@ -445,3 +445,95 @@ body.layout-about .post,
   color: var(--global-text-color-light);
   margin-bottom: 0.35rem;
 }
+
+// -----------------------------------------------------------------------------
+// Team page — student cards
+// -----------------------------------------------------------------------------
+
+// Fixed-width tracks rather than dividing the row into equal columns: the
+// portraits stay thumbnail-sized whatever the container width, and the number
+// per row follows the roster instead of stretching to fill it.
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 168px));
+  justify-content: start;
+  gap: 1.5rem 1.25rem;
+}
+
+.member-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background-color: var(--global-card-bg-color);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .member-card {
+    transition: none;
+  }
+
+  .member-card:hover {
+    transform: none;
+  }
+}
+
+// Portraits are pre-cropped to 3:4 with the head at a consistent scale; the
+// aspect-ratio box guards against a future upload that isn't.
+.member-photo {
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background-color: var(--global-code-bg-color);
+}
+
+.member-photo figure,
+.member-photo picture {
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.member-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.member-body {
+  padding: 0.85rem 0.9rem 0.95rem;
+}
+
+.member-name {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.member-name-en {
+  margin-top: 0.1rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--global-text-color-light);
+}
+
+// Short accent rule separating identity from research focus. Hidden when a
+// member has no focus line yet, so the card doesn't end on a stray mark.
+.member-focus {
+  margin: 0.6rem 0 0;
+  padding-top: 0.6rem;
+  border-top: 2px solid var(--global-theme-color);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--global-text-color);
+}

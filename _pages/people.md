@@ -92,54 +92,59 @@ nav_order: 2
   </div>
 
   <div class="tab-pane fade" id="students" role="tabpanel" aria-labelledby="students-tab">
-    <div class="row mt-3 align-items-center">
-      <div class="col-sm-2 col-3">
-        {%
-          include figure.liquid
-          loading="lazy"
-          path="assets/img/members/kim_seongjun.jpg"
-          class="img-fluid rounded"
-          alt="Kim Seong-Jun"
-          cache_bust=true
-        %}
+    <div class="member-grid mt-4">
+      <div class="member-card">
+        <div class="member-photo">
+          {%
+            include figure.liquid
+            loading="lazy"
+            path="assets/img/members/kim_seongjun.jpg"
+            sizes="168px"
+            alt="Kim Seong-Jun"
+            cache_bust=true
+          %}
+        </div>
+        <div class="member-body">
+          <h5 class="member-name">김성준</h5>
+          <div class="member-name-en">Kim Seong-Jun</div>
+          <p class="member-focus">Generative AI for design optimization</p>
+        </div>
       </div>
-      <div class="col-sm-10 col-9">
-        <h5 style="margin: 0;">김성준 (Kim Seong-Jun)</h5>
-        <p style="margin: 0;">시뮬레이션 + AI 기반 설계 자동화</p>
+      <div class="member-card">
+        <div class="member-photo">
+          {%
+            include figure.liquid
+            loading="lazy"
+            path="assets/img/members/lee_kyeongkwan.jpg"
+            sizes="168px"
+            alt="Lee Kyeong-Kwan"
+            cache_bust=true
+          %}
+        </div>
+        <div class="member-body">
+          <h5 class="member-name">이경관</h5>
+          <div class="member-name-en">Lee Kyeong-Kwan</div>
+          <p class="member-focus">Predictive AI for materials design</p>
+        </div>
       </div>
-    </div>
-    <div class="row mt-3 align-items-center">
-      <div class="col-sm-2 col-3">
-        {%
-          include figure.liquid
-          loading="lazy"
-          path="assets/img/members/lee_kyeongkwan.jpg"
-          class="img-fluid rounded"
-          alt="Lee Kyeong-Kwan"
-          cache_bust=true
-        %}
+      <div class="member-card">
+        <div class="member-photo">
+          {%
+            include figure.liquid
+            loading="lazy"
+            path="assets/img/members/kim_taeho.jpg"
+            sizes="168px"
+            alt="Kim Tae-Ho"
+            cache_bust=true
+          %}
+        </div>
+        <div class="member-body">
+          <h5 class="member-name">김태호</h5>
+          <div class="member-name-en">Kim Tae-Ho</div>
+          <p class="member-focus">Physics-guided AI for additive manufacturing</p>
+        </div>
       </div>
-      <div class="col-sm-10 col-9">
-        <h5 style="margin: 0;">이경관 (Lee Kyeong-Kwan)</h5>
-        <p style="margin: 0;">소재 물성 예측 대리 모델 개발</p>
       </div>
-    </div>
-    <div class="row mt-3 align-items-center">
-      <div class="col-sm-2 col-3">
-        {%
-          include figure.liquid
-          loading="lazy"
-          path="assets/img/members/kim_taeho.jpg"
-          class="img-fluid rounded"
-          alt="Kim Tae-Ho"
-          cache_bust=true
-        %}
-      </div>
-      <div class="col-sm-10 col-9">
-        <h5 style="margin: 0;">김태호 (Kim Tae-Ho)</h5>
-        <p style="margin: 0;"></p>
-      </div>
-    </div>
   </div>
 
   <div class="tab-pane fade" id="alumni" role="tabpanel" aria-labelledby="alumni-tab">
