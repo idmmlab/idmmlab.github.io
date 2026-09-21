@@ -343,3 +343,105 @@ body.layout-about .post,
   width: 55%;
   height: 55%;
 }
+
+// -----------------------------------------------------------------------------
+// Facilities page
+// -----------------------------------------------------------------------------
+
+// Headline figures above the equipment cards. Auto-fitting grid so the row
+// collapses from four tiles to two to one as the viewport narrows.
+.facility-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.facility-stat {
+  padding: 1.1rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background-color: var(--global-card-bg-color);
+  text-align: center;
+}
+
+.facility-stat-value {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--global-theme-color);
+}
+
+.facility-stat-label {
+  margin-top: 0.3rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--global-text-color-light);
+}
+
+// Equipment card header — same colored band as the Research thrust cards,
+// sized to its text rather than a fixed height.
+.facility-card .facility-card-img {
+  padding: 1rem 1.25rem;
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  color: #ffffff;
+}
+
+.facility-card .facility-card-img h3 {
+  font-size: 1.35rem;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+// Spec rows. Label column is fixed and wraps; the value column carries the
+// hardware string and is allowed to wrap freely on narrow screens.
+.facility-table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.facility-table th,
+.facility-table td {
+  padding: 0.55rem 0;
+  vertical-align: top;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.facility-table tr:first-child th,
+.facility-table tr:first-child td {
+  border-top: 0;
+}
+
+.facility-table th {
+  width: 11rem;
+  padding-right: 1rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+  white-space: normal;
+}
+
+.facility-table td {
+  color: var(--global-text-color-light);
+}
+
+@media (max-width: 576px) {
+  .facility-table th,
+  .facility-table td {
+    display: block;
+    width: auto;
+    padding-right: 0;
+  }
+
+  .facility-table td {
+    padding-top: 0.15rem;
+    border-top: 0;
+  }
+}
+
+.facility-note {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.35rem;
+}

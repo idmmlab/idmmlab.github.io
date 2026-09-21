@@ -3,7 +3,7 @@ layout: page
 title: Join Us
 permalink: /join/
 nav: true
-nav_order: 6
+nav_order: 7
 description: Open positions for graduate students and undergraduate researchers, and how to reach the lab.
 ---
 
