@@ -94,11 +94,14 @@ nav_order: 2
   <div class="tab-pane fade" id="students" role="tabpanel" aria-labelledby="students-tab">
     <div class="row mt-3 align-items-center">
       <div class="col-sm-2 col-3">
-        <div class="student-photo-placeholder rounded">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true">
-            <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3 0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7 0-98.5-79.8-178.3-178.3-178.3l-91.4 0z"/>
-          </svg>
-        </div>
+        {%
+          include figure.liquid
+          loading="lazy"
+          path="assets/img/members/kim_seongjun.jpg"
+          class="img-fluid rounded"
+          alt="Kim Seong-Jun"
+          cache_bust=true
+        %}
       </div>
       <div class="col-sm-10 col-9">
         <h5 style="margin: 0;">김성준 (Kim Seong-Jun)</h5>
@@ -107,11 +110,14 @@ nav_order: 2
     </div>
     <div class="row mt-3 align-items-center">
       <div class="col-sm-2 col-3">
-        <div class="student-photo-placeholder rounded">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true">
-            <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3 0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7 0-98.5-79.8-178.3-178.3-178.3l-91.4 0z"/>
-          </svg>
-        </div>
+        {%
+          include figure.liquid
+          loading="lazy"
+          path="assets/img/members/lee_kyeongkwan.jpg"
+          class="img-fluid rounded"
+          alt="Lee Kyeong-Kwan"
+          cache_bust=true
+        %}
       </div>
       <div class="col-sm-10 col-9">
         <h5 style="margin: 0;">이경관 (Lee Kyeong-Kwan)</h5>
@@ -120,11 +126,14 @@ nav_order: 2
     </div>
     <div class="row mt-3 align-items-center">
       <div class="col-sm-2 col-3">
-        <div class="student-photo-placeholder rounded">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true">
-            <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3 0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7 0-98.5-79.8-178.3-178.3-178.3l-91.4 0z"/>
-          </svg>
-        </div>
+        {%
+          include figure.liquid
+          loading="lazy"
+          path="assets/img/members/kim_taeho.jpg"
+          class="img-fluid rounded"
+          alt="Kim Tae-Ho"
+          cache_bust=true
+        %}
       </div>
       <div class="col-sm-10 col-9">
         <h5 style="margin: 0;">김태호 (Kim Tae-Ho)</h5>
