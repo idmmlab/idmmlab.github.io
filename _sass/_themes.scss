@@ -440,19 +440,17 @@ body.layout-about .post,
 // Team page — student cards
 // -----------------------------------------------------------------------------
 
-// Fixed-width tracks rather than dividing the row into equal columns: the
-// portraits stay thumbnail-sized whatever the container width, and the number
-// per row follows the roster instead of stretching to fill it.
+// Keep one member per row, with a fixed-width portrait beside their details.
 .member-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 168px));
-  justify-content: start;
-  gap: 1.5rem 1.25rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
 }
 
 .member-card {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 168px minmax(0, 1fr);
+  align-items: center;
   overflow: hidden;
   border: 1px solid var(--global-divider-color);
   border-radius: 6px;
@@ -501,7 +499,18 @@ body.layout-about .post,
 }
 
 .member-body {
+  min-width: 0;
   padding: 0.85rem 0.9rem 0.95rem;
+}
+
+@media (max-width: 575.98px) {
+  .member-card {
+    grid-template-columns: 96px minmax(0, 1fr);
+  }
+
+  .member-body {
+    padding: 0.75rem;
+  }
 }
 
 .member-name {
