@@ -131,6 +131,18 @@ nav_order: 2
         <p class="member-focus">Physics-guided AI for additive manufacturing</p>
       </div>
     </div>
+    <div class="member-card">
+      <div class="member-photo student-photo-placeholder" aria-hidden="true">
+        <svg viewBox="0 0 100 100" fill="currentColor" focusable="false">
+          <circle cx="50" cy="32" r="18" />
+          <path d="M18 92V82a32 32 0 0 1 64 0v10z" />
+        </svg>
+      </div>
+      <div class="member-body">
+        <h3 class="member-name">이우승</h3>
+        <p class="member-focus">Generative AI and differentiable modeling</p>
+      </div>
+    </div>
   </div>
 </section>
 
