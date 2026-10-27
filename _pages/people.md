@@ -95,6 +95,10 @@ nav_order: 2
         <h3 class="member-name">김성준</h3>
         <div class="member-name-en">Kim Seong-Jun</div>
         <p class="member-focus">Generative AI for design optimization</p>
+        <button type="button" class="member-publications-toggle" data-toggle="collapse" data-target="#publications-kim-seongjun" aria-expanded="false" aria-controls="publications-kim-seongjun" aria-label="김성준 Publications">Publications</button>
+        <div class="collapse member-publications" id="publications-kim-seongjun">
+          <p>Publications will be added soon.</p>
+        </div>
       </div>
     </div>
     <div class="member-card">
@@ -112,6 +116,10 @@ nav_order: 2
         <h3 class="member-name">이경관</h3>
         <div class="member-name-en">Lee Kyeong-Kwan</div>
         <p class="member-focus">Predictive AI for materials design</p>
+        <button type="button" class="member-publications-toggle" data-toggle="collapse" data-target="#publications-lee-kyeongkwan" aria-expanded="false" aria-controls="publications-lee-kyeongkwan" aria-label="이경관 Publications">Publications</button>
+        <div class="collapse member-publications" id="publications-lee-kyeongkwan">
+          <p>Publications will be added soon.</p>
+        </div>
       </div>
     </div>
     <div class="member-card">
@@ -129,6 +137,10 @@ nav_order: 2
         <h3 class="member-name">김태호</h3>
         <div class="member-name-en">Kim Tae-Ho</div>
         <p class="member-focus">Physics-guided AI for additive manufacturing</p>
+        <button type="button" class="member-publications-toggle" data-toggle="collapse" data-target="#publications-kim-taeho" aria-expanded="false" aria-controls="publications-kim-taeho" aria-label="김태호 Publications">Publications</button>
+        <div class="collapse member-publications" id="publications-kim-taeho">
+          <p>Publications will be added soon.</p>
+        </div>
       </div>
     </div>
     <div class="member-card">
@@ -141,6 +153,10 @@ nav_order: 2
       <div class="member-body">
         <h3 class="member-name">이우승</h3>
         <p class="member-focus">Generative AI and differentiable modeling</p>
+        <button type="button" class="member-publications-toggle" data-toggle="collapse" data-target="#publications-lee-wooseung" aria-expanded="false" aria-controls="publications-lee-wooseung" aria-label="이우승 Publications">Publications</button>
+        <div class="collapse member-publications" id="publications-lee-wooseung">
+          <p>Publications will be added soon.</p>
+        </div>
       </div>
     </div>
   </div>

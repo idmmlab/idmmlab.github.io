@@ -500,7 +500,7 @@ body.layout-about .post,
 
 .member-body {
   min-width: 0;
-  padding: 0.85rem 0.9rem 0.95rem;
+  padding: 1.1rem 1.25rem;
 }
 
 @media (max-width: 575.98px) {
@@ -515,13 +515,13 @@ body.layout-about .post,
 
 .member-name {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.4rem;
   line-height: 1.3;
 }
 
 .member-name-en {
   margin-top: 0.1rem;
-  font-size: 0.78rem;
+  font-size: 0.95rem;
   letter-spacing: 0.04em;
   color: var(--global-text-color-light);
 }
@@ -532,7 +532,55 @@ body.layout-about .post,
   margin: 0.6rem 0 0;
   padding-top: 0.6rem;
   border-top: 2px solid var(--global-theme-color);
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   line-height: 1.45;
   color: var(--global-text-color);
+}
+
+.member-publications-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 44px;
+  margin-top: 0.85rem;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--global-theme-color);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.member-publications-toggle::after {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  transform: translateY(-0.1rem) rotate(45deg);
+}
+
+.member-publications-toggle[aria-expanded="true"]::after {
+  transform: translateY(0.1rem) rotate(225deg);
+}
+
+.member-publications-toggle:hover {
+  background-color: var(--global-code-bg-color);
+}
+
+.member-publications-toggle:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+
+.member-publications {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.member-publications p {
+  margin: 0.75rem 0 0;
 }
