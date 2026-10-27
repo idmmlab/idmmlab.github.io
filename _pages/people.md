@@ -97,7 +97,6 @@ nav_order: 2
         <p class="member-focus">Generative AI for design optimization</p>
         <button type="button" class="member-publications-toggle" data-toggle="collapse" data-target="#publications-kim-seongjun" aria-expanded="false" aria-controls="publications-kim-seongjun" aria-label="김성준 Publications">Publications</button>
         <div class="collapse member-publications" id="publications-kim-seongjun">
-          <p>Publications will be added soon.</p>
         </div>
       </div>
     </div>
@@ -118,7 +117,6 @@ nav_order: 2
         <p class="member-focus">Predictive AI for materials design</p>
         <button type="button" class="member-publications-toggle" data-toggle="collapse" data-target="#publications-lee-kyeongkwan" aria-expanded="false" aria-controls="publications-lee-kyeongkwan" aria-label="이경관 Publications">Publications</button>
         <div class="collapse member-publications" id="publications-lee-kyeongkwan">
-          <p>Publications will be added soon.</p>
         </div>
       </div>
     </div>
@@ -139,7 +137,6 @@ nav_order: 2
         <p class="member-focus">Physics-guided AI for additive manufacturing</p>
         <button type="button" class="member-publications-toggle" data-toggle="collapse" data-target="#publications-kim-taeho" aria-expanded="false" aria-controls="publications-kim-taeho" aria-label="김태호 Publications">Publications</button>
         <div class="collapse member-publications" id="publications-kim-taeho">
-          <p>Publications will be added soon.</p>
         </div>
       </div>
     </div>
@@ -155,7 +152,6 @@ nav_order: 2
         <p class="member-focus">Generative AI and differentiable modeling</p>
         <button type="button" class="member-publications-toggle" data-toggle="collapse" data-target="#publications-lee-wooseung" aria-expanded="false" aria-controls="publications-lee-wooseung" aria-label="이우승 Publications">Publications</button>
         <div class="collapse member-publications" id="publications-lee-wooseung">
-          <p>Publications will be added soon.</p>
         </div>
       </div>
     </div>
