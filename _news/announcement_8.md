@@ -8,7 +8,7 @@ related_posts: false
 Prof. Kang-Hyun Lee, Participating Researcher on _"Development of a
 Full-Lifecycle Materials Data Hub for Ultra-High-Temperature
 Heat-Resistant Ceramics for Space Launch Vehicles, Based on Fast and
-Reliable Computation–Experiment Integration."_ 30,000,000 won.
+Reliable Computation–Experiment Integration."_
 &middot; Prof. Kang-Hyun Lee — _"우주발사체용 초고온 내열 세라믹 소재를
 위한 고속·고신뢰성 계산-실험 융합 기반 전주기 소재 데이터 HUB 개발 및
-실증 연구"_ — 30,000,000 won.
+실증 연구"_.
