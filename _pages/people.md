@@ -141,11 +141,15 @@ nav_order: 2
       </div>
     </div>
     <div class="member-card">
-      <div class="member-photo student-photo-placeholder" aria-hidden="true">
-        <svg viewBox="0 0 100 100" fill="currentColor" focusable="false">
-          <circle cx="50" cy="32" r="18" />
-          <path d="M18 92V82a32 32 0 0 1 64 0v10z" />
-        </svg>
+      <div class="member-photo">
+        {%
+          include figure.liquid
+          loading="lazy"
+          path="assets/img/members/lee_wooseung.png"
+          sizes="168px"
+          alt="이우승"
+          cache_bust=true
+        %}
       </div>
       <div class="member-body">
         <h3 class="member-name">이우승</h3>
