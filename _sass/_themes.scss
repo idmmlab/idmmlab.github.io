@@ -377,7 +377,7 @@ body.layout-about .post,
   color: #ffffff;
 }
 
-.facility-card .facility-card-img h3 {
+.facility-card .facility-card-img h2 {
   font-size: 1.35rem;
   line-height: 1.25;
   color: #ffffff;
@@ -416,15 +416,43 @@ body.layout-about .post,
   color: var(--global-text-color-light);
 }
 
+.facility-gpu-table thead {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.facility-gpu-table th {
+  width: auto;
+}
+
+.facility-gpu-table th:not(:first-child),
+.facility-gpu-table td {
+  padding-right: 0;
+  padding-left: 0.75rem;
+  text-align: right;
+}
+
+.facility-gpu-table td {
+  color: var(--global-text-color);
+  white-space: nowrap;
+}
+
 @media (max-width: 576px) {
-  .facility-table th,
-  .facility-table td {
+  .facility-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .facility-stat {
+    padding: 0.85rem 0.5rem;
+  }
+
+  .facility-table:not(.facility-gpu-table) th,
+  .facility-table:not(.facility-gpu-table) td {
     display: block;
     width: auto;
     padding-right: 0;
   }
 
-  .facility-table td {
+  .facility-table:not(.facility-gpu-table) td {
     padding-top: 0.15rem;
     border-top: 0;
   }

@@ -2,31 +2,37 @@
 layout: page
 title: Facilities
 permalink: /facilities/
-description: In-house HPC clusters, GPU servers, and workstations supporting the lab's simulation and generative AI research.
+description: Computing resources for multiphysics simulation, large-scale dataset generation, and AI model training.
 nav: true
 nav_order: 4
 ---
 
-Our computational work — multiphysics simulation, large-scale surrogate training, and generative model development — runs on hardware the lab owns and operates directly. This gives us long-running simulation campaigns and multi-GPU training without queueing on shared national resources.
+<p lang="ko">연구실이 직접 운영하는 컴퓨팅 자원으로 다물리 시뮬레이션, 대규모 데이터셋 생성, 생성형 AI 및 대리모델 학습을 수행합니다.</p>
 
-<p lang="ko">다물리 시뮬레이션, 대규모 대리모델 학습, 생성형 모델 개발을 연구실이 직접 보유·운영하는 계산 자원에서 수행합니다. 외부 공용 자원의 대기 없이 장시간 시뮬레이션과 다중 GPU 학습을 진행할 수 있습니다.</p>
+{% assign gpu_count = 0 %}
+{% assign total_vram_gb = 0 %}
+{% for gpu in site.data.compute_gpus %}
+{% assign gpu_count = gpu_count | plus: gpu.count %}
+{% assign model_vram_gb = gpu.count | times: gpu.memory_gb %}
+{% assign total_vram_gb = total_vram_gb | plus: model_vram_gb %}
+{% endfor %}
 
-<div class="facility-stats mt-4 mb-5">
+<div class="facility-stats mt-4 mb-4">
   <div class="facility-stat">
-    <div class="facility-stat-value">16</div>
-    <div class="facility-stat-label">GPU accelerators</div>
+    <div class="facility-stat-value">{{ gpu_count }}</div>
+    <div class="facility-stat-label">GPUs</div>
+  </div>
+  <div class="facility-stat">
+    <div class="facility-stat-value">{{ total_vram_gb }} GB</div>
+    <div class="facility-stat-label">Total GPU memory</div>
   </div>
   <div class="facility-stat">
     <div class="facility-stat-value">604</div>
-    <div class="facility-stat-label">CPU cores</div>
+    <div class="facility-stat-label">Server CPU cores</div>
   </div>
   <div class="facility-stat">
     <div class="facility-stat-value">3.5 TB</div>
-    <div class="facility-stat-label">System memory</div>
-  </div>
-  <div class="facility-stat">
-    <div class="facility-stat-value">530 GB</div>
-    <div class="facility-stat-label">Total GPU memory</div>
+    <div class="facility-stat-label">Server RAM</div>
   </div>
 </div>
 
@@ -34,22 +40,25 @@ Our computational work — multiphysics simulation, large-scale surrogate traini
 
   <div class="card facility-card mb-4 shadow-sm">
     <div class="facility-card-img">
-      <h3 class="mb-0">AI Workstations</h3>
+      <h2 class="mb-0" id="gpu-inventory">GPU Inventory</h2>
     </div>
     <div class="card-body">
-      <p class="card-text mb-0">High-performance workstations built for AI model development — interactive training and fine-tuning, CAD/CAE pre- and post-processing, and fast design iteration.</p>
-    </div>
-    <div class="card-body border-top">
-      <table class="facility-table">
+      <table class="facility-table facility-gpu-table" aria-labelledby="gpu-inventory">
+        <thead>
+          <tr>
+            <th scope="col">NVIDIA GPU model</th>
+            <th scope="col">Count</th>
+            <th scope="col">VRAM per GPU</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr>
-            <th>Workstation A</th>
-            <td>2 &times; NVIDIA RTX 5090 (32 GB GDDR7)</td>
-          </tr>
-          <tr>
-            <th>Workstation B</th>
-            <td>2 &times; NVIDIA RTX PRO 6000 Blackwell (96 GB GDDR7)</td>
-          </tr>
+          {% for gpu in site.data.compute_gpus %}
+            <tr>
+              <th scope="row">{{ gpu.model }}</th>
+              <td>{{ gpu.count }}</td>
+              <td>{{ gpu.memory_gb }} GB</td>
+            </tr>
+          {% endfor %}
         </tbody>
       </table>
     </div>
@@ -57,60 +66,29 @@ Our computational work — multiphysics simulation, large-scale surrogate traini
 
   <div class="card facility-card mb-4 shadow-sm">
     <div class="facility-card-img">
-      <h3 class="mb-0">GPU Compute</h3>
+      <h2 class="mb-0" id="cpu-cluster">CPU Cluster &amp; Storage</h2>
     </div>
     <div class="card-body">
-      <p class="card-text mb-0">Multi-GPU nodes for training diffusion and surrogate models, and for GPU-accelerated solvers.</p>
+      <p class="card-text mb-0">The HPC cluster uses a job scheduler for parallel FEM and FVM simulations and dataset generation.</p>
     </div>
     <div class="card-body border-top">
-      <table class="facility-table">
+      <table class="facility-table" aria-labelledby="cpu-cluster">
         <tbody>
           <tr>
-            <th>GPU node (4U)</th>
-            <td>5 &times; NVIDIA RTX 3090 (24 GB GDDR6X) &middot; 2 &times; Xeon Gold 6226R &middot; 192 GB &middot; 10 GbE dual port</td>
+            <th scope="row">Cluster controller</th>
+            <td>2 &times; Xeon Silver 4210R (10 cores each) &middot; 64 GB RAM</td>
           </tr>
           <tr>
-            <th>GPU system (5U)</th>
-            <td>2 &times; NVIDIA RTX 3090 (24 GB) &middot; 2 &times; Xeon Gold 6226R &middot; 192 GB &middot; 64 TB SATA storage</td>
+            <th scope="row">CPU compute nodes</th>
+            <td>Dual Xeon Gold 6226R or 6326 (16 cores per CPU) &middot; 192 GB DDR4 ECC RAM and 1 TB NVMe per node</td>
           </tr>
           <tr>
-            <th>GPU server (4U)</th>
-            <td>NVIDIA RTX 6000 Ada + RTX 4500 Ada &middot; 2 &times; Xeon 6426Y &middot; 256 GB DDR5 &middot; Ubuntu / CUDA / cuDNN</td>
+            <th scope="row">Storage</th>
+            <td>128 TB SATA on the CPU cluster (RAID 5) &middot; 64 TB SATA on a GPU server</td>
           </tr>
           <tr>
-            <th>Legacy GPU servers</th>
-            <td>2 &times; Supermicro 7049P &middot; NVIDIA RTX 2080 Ti &middot; 2 &times; Xeon Gold 6240 (18C) &middot; 192 GB &middot; per node</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="card facility-card mb-4 shadow-sm">
-    <div class="facility-card-img">
-      <h3 class="mb-0">CPU Cluster</h3>
-    </div>
-    <div class="card-body">
-      <p class="card-text mb-0">Rack-mounted HPC cluster under a master node and job scheduler, used for parallel FEM/FVM campaigns and dataset generation.</p>
-    </div>
-    <div class="card-body border-top">
-      <table class="facility-table">
-        <tbody>
-          <tr>
-            <th>Master node (2U)</th>
-            <td>2 &times; Xeon Silver 4210R (10C/20T) &middot; 64 GB &middot; 128 TB enterprise SATA (RAID 5)</td>
-          </tr>
-          <tr>
-            <th>Compute nodes (1U)</th>
-            <td>2 &times; Xeon Gold 6226R (16C/32T) &middot; 192 GB DDR4 ECC &middot; 1 TB NVMe &middot; per node</td>
-          </tr>
-          <tr>
-            <th>Compute nodes (1U)</th>
-            <td>2 &times; Xeon Gold 6326 (16C/32T) &middot; 192 GB DDR4 ECC &middot; 1 TB NVMe &middot; per node</td>
-          </tr>
-          <tr>
-            <th>Interconnect</th>
-            <td>10 Gbps L2 switched fabric &middot; 37U rack &middot; rack-mount UPS</td>
+            <th scope="row">Interconnect</th>
+            <td>10 Gbps switched Ethernet</td>
           </tr>
         </tbody>
       </table>

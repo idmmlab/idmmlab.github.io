@@ -1,0 +1,21 @@
+- model: RTX PRO 6000 Blackwell
+  count: 2
+  memory_gb: 96
+- model: GeForce RTX 5090
+  count: 2
+  memory_gb: 32
+- model: RTX 6000 Ada
+  count: 1
+  memory_gb: 48
+- model: RTX 4500 Ada
+  count: 1
+  memory_gb: 24
+- model: GeForce RTX 3090
+  count: 7
+  memory_gb: 24
+- model: GeForce RTX 3060
+  count: 1
+  memory_gb: 12
+- model: GeForce RTX 2080 Ti
+  count: 2
+  memory_gb: 11
