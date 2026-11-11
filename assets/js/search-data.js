@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-facilities",
           title: "Facilities",
-          description: "In-house HPC clusters, GPU servers, and workstations supporting the lab&#39;s simulation and generative AI research.",
+          description: "Computing resources for multiphysics simulation, large-scale dataset generation, and AI model training.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/facilities/";
