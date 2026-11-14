@@ -103,17 +103,21 @@ lee2021phasefield:
   license: by
 
 lee2021tempthread:
-  file: lee2021tempthread.svg
-  label: Research illustration
-  credit: IDMM Lab
-  alt: "Research illustration of temperature history connecting three simulation scales"
+  file: lee2021tempthread-multiscale-framework.webp
+  width: 899
+  height: 423
+  label: Multiscale SLM framework
+  credit: "Lee and Yun · Copyright © 2021 Techno-Press, Ltd."
+  alt: "Multiscale selective laser melting simulation linking melt pool analysis, a layer and hatch thermal model, and part-scale stress and distortion"
   source: https://doi.org/10.12989/aas.2021.8.1.031
 
 park2021ablative:
-  file: park2021ablative.svg
-  label: Research illustration
-  credit: IDMM Lab
-  alt: "Research illustration of surface heating and material response in an ablative composite"
+  file: park2021ablative-material-response.webp
+  width: 1033
+  height: 640
+  label: Carbon/phenolic ablation
+  credit: "Park et al. · Copyright © 2021 Techno-Press, Ltd."
+  alt: "Schematic from the paper showing heat transfer, char formation, and gas release in a carbon/phenolic composite"
   source: https://doi.org/10.12989/aas.2021.8.3.251
 
 lee2020heatsource:
