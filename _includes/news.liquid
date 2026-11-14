@@ -37,7 +37,7 @@
               <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
               <td>
                 {% if item.paper_figure and site.data.publication_figures[item.paper_figure] %}
-                  <div class="news-paper-figure">
+                  <div class="news-paper-figure{% if site.data.publication_figures[item.paper_figure].additional %} news-paper-figure-pair{% endif %}">
                     {% include publication_figure.liquid key=item.paper_figure %}
                   </div>
                 {% elsif item.images %}

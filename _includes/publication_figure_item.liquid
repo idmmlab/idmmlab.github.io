@@ -1,7 +1,17 @@
 {% assign figure_path = include.asset.file | default: include.fallback_file | prepend: '/assets/img/publication_preview/' | relative_url %}
 <figure class="publication-figure">
   <a href="{{ figure_path }}" aria-label="Open {{ include.asset.alt | escape }} at full size">
-    <img src="{{ figure_path }}" alt="{{ include.asset.alt | escape }}" loading="lazy" decoding="async">
+    <img
+      src="{{ figure_path }}"
+      alt="{{ include.asset.alt | escape }}"
+      {% if include.asset.width and include.asset.height %}
+        class="publication-figure-native"
+        width="{{ include.asset.width }}"
+        height="{{ include.asset.height }}"
+      {% endif %}
+      loading="lazy"
+      decoding="async"
+    >
   </a>
   <figcaption>
     {% if include.asset.label %}{{ include.asset.label | escape }} · {% endif %}

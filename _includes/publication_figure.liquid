@@ -2,7 +2,7 @@
 {% if paper_figure %}
   {% assign figure_file = include.key | append: '.webp' %}
   {% include publication_figure_item.liquid asset=paper_figure fallback_file=figure_file %}
-  {% if paper_figure.additional %}
+  {% if paper_figure.additional and include.primary_only != true %}
     {% include publication_figure_item.liquid asset=paper_figure.additional %}
   {% endif %}
 {% endif %}
