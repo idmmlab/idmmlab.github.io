@@ -26,6 +26,13 @@ lee2026lpbfanisotropy:
   alt: "Cellular automaton simulation of Ti–6Al–4V solidification, with a 3D grain map, cross-sections, and grain statistics"
   source: https://doi.org/10.1080/17452759.2026.2666956
   license: by
+  additional:
+    file: lee2026lpbfanisotropy-modeling-workflow.webp
+    label: From melt pool to mechanical response
+    credit: Adapted from Lee and Yun
+    alt: "Four panels showing melt pool predictions and experimental validation, CA-predicted grain structure, CP stress–strain predictions and tensile tests, and grain orientations in inverse pole figures colored by Schmid factor"
+    source: https://doi.org/10.1080/17452759.2026.2666956
+    license: by
 
 lee2026microlad:
   credit: Lee and Ahmed

@@ -24,6 +24,10 @@
   }
 }
 
+.publication-figure + .publication-figure {
+  margin-top: 0.85rem;
+}
+
 .news-paper-figure {
   float: right;
   width: min(45%, 400px);
