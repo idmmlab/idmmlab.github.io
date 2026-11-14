@@ -1,9 +1,9 @@
 # Match the BibTeX key. Store a WebP with the same name, or set file to override it.
 xue2026aeroplastic:
-  file: xue2026aeroplastic-boundary-conditions.webp
-  label: Boundary conditions (excerpt)
+  file: xue2026aeroplastic-blisk-failure-modes.webp
+  label: Turbine blisk and failure modes
   credit: Wang et al.
-  alt: "Simplified turbine disk model showing its hub, rim, and analysis boundary conditions"
+  alt: "Turbine blisk cutaway and schematic illustrations of burst, thermomechanical fatigue, and rubbing"
   source: https://doi.org/10.1016/j.ast.2026.113159
 
 eftekhari2026fgmplate:
