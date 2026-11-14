@@ -16,12 +16,18 @@
         decoding="async"
       >
     </a>
-    <figcaption>
-      {% if paper_figure.label %}{{ paper_figure.label | escape }} · {% endif %}
-      <a href="{{ paper_figure.source }}">{{ paper_figure.credit | escape }}</a>
-      {% if paper_figure.license %}
-        · <a href="https://creativecommons.org/licenses/{{ paper_figure.license }}/4.0/">{{ paper_figure.license | upcase | prepend: 'CC ' }} 4.0</a>
-      {% endif %}
-    </figcaption>
+    <details class="publication-figure-credit">
+      <summary aria-label="Figure source and rights">ⓘ</summary>
+      <div class="publication-figure-credit-content">
+        {% if paper_figure.label %}
+          <div>{{ paper_figure.label | escape }}</div>
+        {% endif %}
+        <a href="{{ paper_figure.source }}">{{ paper_figure.credit | escape }}</a>
+        {% if paper_figure.license %}
+          ·
+          <a href="https://creativecommons.org/licenses/{{ paper_figure.license }}/4.0/">{{ paper_figure.license | upcase | prepend: 'CC ' }} 4.0</a>
+        {% endif %}
+      </div>
+    </details>
   </figure>
 {% endif %}

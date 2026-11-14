@@ -6,6 +6,7 @@
 
 .publication-figure {
   margin: 0;
+  position: relative;
 
   img {
     display: block;
@@ -21,12 +22,57 @@
     height: auto;
     aspect-ratio: auto;
   }
+}
 
-  figcaption {
-    margin-top: 0.35rem;
-    font-size: 0.72rem;
-    line-height: 1.35;
+.publication-figure-credit {
+  position: absolute;
+  inset: 0.3rem 0.3rem auto auto;
+
+  summary {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 50%;
+    color: var(--global-text-color);
+    background: var(--global-card-bg-color);
+    cursor: pointer;
   }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+.publication-figure-credit-content {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  width: min(15rem, 52vw);
+  padding: 0.6rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  background: var(--global-card-bg-color);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.journal-cover-line {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.journal-cover {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.home-paper-heading {
+  margin-bottom: 0.65rem;
 }
 
 .news-paper-figure {
@@ -66,7 +112,6 @@
 }
 
 .home-paper-title {
-  margin-top: 0.65rem;
   font-weight: 600;
   line-height: 1.4;
 }

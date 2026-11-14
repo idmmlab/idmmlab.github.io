@@ -184,8 +184,11 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    <div class="periodical">
-      {{ periodical | strip }}
+    <div class="periodical journal-cover-line">
+      {% if site.enable_publication_thumbnails and site.data.publication_figures[entry.key] %}
+        {% include journal_cover.liquid paper=entry %}
+      {% endif %}
+      <span>{{ periodical | strip }}</span>
     </div>
     <div class="periodical">
       {{ entry.note | strip }}
