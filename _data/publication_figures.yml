@@ -27,10 +27,10 @@ lee2026lpbfanisotropy:
   source: https://doi.org/10.1080/17452759.2026.2666956
   license: by
   additional:
-    file: lee2026lpbfanisotropy-modeling-workflow.webp
+    file: lee2026lpbfanisotropy-melt-pool-ca-cp.webp
     label: From melt pool to mechanical response
     credit: Adapted from Lee and Yun
-    alt: "Four panels showing melt pool predictions and experimental validation, CA-predicted grain structure, CP stress–strain predictions and tensile tests, and grain orientations in inverse pole figures colored by Schmid factor"
+    alt: "Melt pool simulation and optical micrograph; CA prediction alongside reconstructed and directly measured EBSD grain orientation maps; and a crystal plasticity RVE with simulated and experimental tensile curves"
     source: https://doi.org/10.1080/17452759.2026.2666956
     license: by
 
