@@ -29,34 +29,10 @@
   }
 }
 
-.publication-figure + .publication-figure {
-  margin-top: 0.85rem;
-}
-
-.publication-secondary-figure {
-  margin-top: 0.75rem;
-  max-width: 550px;
-}
-
 .news-paper-figure {
   float: right;
   width: min(45%, 400px);
   margin: 0 0 0.75rem 1rem;
-}
-
-@media (min-width: 768px) {
-  .news-paper-figure-pair {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    float: none;
-    width: 100%;
-    margin-left: 0;
-
-    .publication-figure + .publication-figure {
-      margin-top: 0;
-    }
-  }
 }
 
 .home-publications {

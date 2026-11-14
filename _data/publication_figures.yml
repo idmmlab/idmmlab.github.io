@@ -20,21 +20,14 @@ park2026honeycomb:
   license: by
 
 lee2026lpbfanisotropy:
-  file: lee2026lpbfanisotropy-ca-simulation.webp
-  label: Cellular automaton simulation
-  credit: Lee and Yun
-  alt: "Cellular automaton simulation of Ti–6Al–4V solidification, with a 3D grain map, cross-sections, and grain statistics"
+  file: lee2026lpbfanisotropy-workflow-compact.webp
+  width: 1500
+  height: 1200
+  label: From melt pool to mechanical response
+  credit: Adapted from Lee and Yun
+  alt: "Melt pool simulation and optical micrograph; CA prediction alongside reconstructed and directly measured EBSD grain orientation maps; and a crystal plasticity RVE with simulated and experimental tensile curves"
   source: https://doi.org/10.1080/17452759.2026.2666956
   license: by
-  additional:
-    file: lee2026lpbfanisotropy-workflow-compact.webp
-    width: 1500
-    height: 1200
-    label: From melt pool to mechanical response
-    credit: Adapted from Lee and Yun
-    alt: "Melt pool simulation and optical micrograph; CA prediction alongside reconstructed and directly measured EBSD grain orientation maps; and a crystal plasticity RVE with simulated and experimental tensile curves"
-    source: https://doi.org/10.1080/17452759.2026.2666956
-    license: by
 
 lee2026microlad:
   credit: Lee and Ahmed

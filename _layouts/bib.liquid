@@ -26,7 +26,7 @@
         {% endif %}
       {% endif %}
       {% if site.data.publication_figures[entry.key] %}
-        {% include publication_figure.liquid key=entry.key primary_only=true %}
+        {% include publication_figure.liquid key=entry.key %}
       {% elsif entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -393,12 +393,6 @@
       <!-- Hidden video block -->
       <div class="abstract hidden">
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
-      </div>
-    {% endif %}
-    {% assign additional_figure = site.data.publication_figures[entry.key].additional %}
-    {% if site.enable_publication_thumbnails and additional_figure %}
-      <div class="publication-secondary-figure">
-        {% include publication_figure_item.liquid asset=additional_figure %}
       </div>
     {% endif %}
   </div>
