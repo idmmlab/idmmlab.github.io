@@ -1,0 +1,16 @@
+{% assign paper_figure = site.data.publication_figures[include.key] %}
+{% if paper_figure %}
+  {% assign figure_file = include.key | append: '.webp' %}
+  {% assign figure_path = paper_figure.file | default: figure_file | prepend: '/assets/img/publication_preview/' | relative_url %}
+  <figure class="publication-figure">
+    <a href="{{ figure_path }}" aria-label="Open {{ paper_figure.alt | escape }} at full size">
+      <img src="{{ figure_path }}" alt="{{ paper_figure.alt | escape }}" loading="lazy" decoding="async">
+    </a>
+    <figcaption>
+      <a href="{{ paper_figure.source }}">{{ paper_figure.label }} · {{ paper_figure.credit | escape }}</a>
+      {% if paper_figure.license %}
+        · <a href="https://creativecommons.org/licenses/{{ paper_figure.license }}/4.0/">{{ paper_figure.license | upcase | prepend: 'CC ' }} 4.0</a>
+      {% endif %}
+    </figcaption>
+  </figure>
+{% endif %}

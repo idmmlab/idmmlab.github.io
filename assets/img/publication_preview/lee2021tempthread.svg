@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Temperature thread</title>
+  <desc id="desc">Research overview schematic linking the thermal history of a laser track to layer deposition and the response of a printed part.</desc>
+  <defs>
+    <linearGradient id="thermal" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5ba9a8"/>
+      <stop offset=".5" stop-color="#e6a152"/>
+      <stop offset="1" stop-color="#ce6748"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M1 1 7 4.5 1 8" fill="none" stroke="#27646f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="900" height="600" fill="#edf3f5"/>
+  <path d="M58 136h784" stroke="#cedde2"/>
+  <path d="M62 62h41" stroke="#2a7680" stroke-width="6" stroke-linecap="round"/>
+  <text x="59" y="112" fill="#153347" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Temperature thread</text>
+  <g fill="#fcfeff" stroke="#ccdce1" stroke-width="2">
+    <rect x="60" y="184" width="220" height="258" rx="24"/>
+    <rect x="340" y="184" width="220" height="258" rx="24"/>
+    <rect x="620" y="184" width="220" height="258" rx="24"/>
+  </g>
+  <g stroke="#27646f" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M291 300h36"/>
+    <path d="M571 300h36"/>
+  </g>
+  <g stroke="#315770" stroke-width="4" stroke-linejoin="round">
+    <path d="M99 310 150 281 242 303 190 331Z" fill="#d5e4ea"/>
+    <path d="M99 310v27l91 21v-27z" fill="#bbd1da"/>
+    <path d="M190 331v27l52-28v-27z" fill="#9ab5c2"/>
+    <path d="m159 217 20 5 1 18-18 10-20-4v-18z" fill="#315770"/>
+    <path d="m378 322 58-32 86 20-58 31Z" fill="#e4ecef"/>
+    <path d="M378 322v21l86 21v-23z" fill="#bfdae0"/>
+    <path d="M464 341v23l58-32v-22z" fill="#a8c6d2"/>
+    <path d="m378 305 58-32 86 20-58 32Z" fill="#c8e3e4"/>
+    <path d="m378 287 58-32 86 20-58 32Z" fill="#dcedeb"/>
+    <path d="M658 337v-70l45-21 96 20v72l-45 24-96-22z" fill="#b9d3dc"/>
+    <path d="m658 267 96 22 45-23-96-20z" fill="#dce9ed"/>
+    <path d="M754 290v71" fill="none"/>
+    <path d="m677 314 58 14m-58-1 58 14" stroke="#608391" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="m166 245 14 58" stroke="#c66446" stroke-width="5"/>
+    <path d="m130 307 33-18m12 25 33-18" stroke="#618494" stroke-width="3" stroke-dasharray="3.5 6"/>
+    <path d="m140 312 39-13" stroke="url(#thermal)" stroke-width="7"/>
+    <path d="m398 286 40-22 14 3-40 22 15 4 40-22 15 4-40 22 15 4 40-22" stroke="#31858a" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="m670 294 16 5 12-6 10 23 9-11 23 5" stroke="#c96447" stroke-width="4.5" stroke-linejoin="round"/>
+  </g>
+  <g fill="#153347" font-family="Arial, Helvetica, sans-serif" font-size="37" font-weight="700" text-anchor="middle">
+    <text x="170" y="409">Track</text>
+    <text x="450" y="409">Layer</text>
+    <text x="730" y="409">Part</text>
+  </g>
+  <path d="M173 474v20h554v-20" fill="none" stroke="#7d9ca7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="450" cy="494" r="6" fill="#2a7680"/>
+  <text x="450" y="550" fill="#27646f" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" text-anchor="middle">Linked thermal history</text>
+</svg>

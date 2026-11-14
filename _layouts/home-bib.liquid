@@ -1,0 +1,9 @@
+---
+---
+<div class="home-paper">
+  {% include publication_figure.liquid key=entry.key %}
+  <div class="home-paper-title">
+    <a href="{{ '/publications/' | relative_url }}#{{ entry.key }}">{{ entry.title }}</a>
+  </div>
+  <div class="home-paper-venue">{{ entry.journal }}</div>
+</div>

@@ -3,9 +3,7 @@ layout: post
 date: 2026-08-30 01:00:00+0900
 inline: false
 related_posts: false
-image: /assets/img/publication_preview/AeST.jpg
-image_alt: Aerospace Science and Technology
-image_width: 180px
+paper_figure: xue2026aeroplastic
 ---
 
 Our paper _"Aeroplastic design of turbine disks under transient thermal

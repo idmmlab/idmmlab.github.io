@@ -36,6 +36,13 @@ layout: default
       {% include news.liquid %}
     {% endif %}
 
+    {% if page.url == '/' %}
+      <section id="publication-gallery" class="home-publications" aria-labelledby="publication-gallery-title">
+        <h2 id="publication-gallery-title"><a href="{{ '/publications/' | relative_url }}">Publications</a></h2>
+        {% bibliography --template home-bib %}
+      </section>
+    {% endif %}
+
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>

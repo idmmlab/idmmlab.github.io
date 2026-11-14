@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ablative thermal response</title>
+  <desc id="desc">Conceptual thermal exposure illustration: heat meets the outside of a composite material and the exposed surface develops a distinct response zone.</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a9d0d4"/>
+      <stop offset="1" stop-color="#557d94"/>
+    </linearGradient>
+    <linearGradient id="heated" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c75f46"/>
+      <stop offset=".5" stop-color="#e9a363"/>
+      <stop offset="1" stop-color="#f1c98d"/>
+    </linearGradient>
+    <pattern id="texture" width="52" height="42" patternUnits="userSpaceOnUse">
+      <path d="m6 21 12-6m12 21 11-7M34 9l6-4" fill="none" stroke="#244c62" stroke-opacity=".29" stroke-width="3" stroke-linecap="round"/>
+    </pattern>
+    <clipPath id="section">
+      <path d="M210 332c47 0 65-32 111-32 45 0 83 22 111 3 25-17 38-30 75-26 42 5 56 16 103-6 31-14 58-11 80-9v186c0 15-12 26-27 26H237c-15 0-27-11-27-26z"/>
+    </clipPath>
+    <marker id="heat-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M2 1 8 5 2 9" fill="none" stroke="#b85c40" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="900" height="600" fill="#edf3f5"/>
+  <path d="M58 136h784" stroke="#cedde2"/>
+  <path d="M62 62h41" stroke="#2a7680" stroke-width="6" stroke-linecap="round"/>
+  <text x="59" y="112" fill="#153347" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Ablative thermal response</text>
+  <rect x="60" y="169" width="780" height="382" rx="24" fill="#fcfeff" stroke="#ccdce1" stroke-width="2"/>
+  <text x="125" y="227" fill="#ad563e" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Heat exposure</text>
+  <g fill="none" stroke="#b85c40" stroke-width="4.5" stroke-linecap="round" marker-end="url(#heat-arrow)">
+    <path d="M365 207c17 19-15 27 0 45 9 11-4 17-4 25v14"/>
+    <path d="M448 207c17 19-15 27 0 45 9 11-4 17-4 25v12"/>
+    <path d="M531 198c17 17-14 24 0 41 9 10-4 17-4 25v12"/>
+    <path d="M614 190c16 16-15 25 0 42 9 10-4 17-4 25v12"/>
+  </g>
+  <g clip-path="url(#section)">
+    <rect x="210" y="254" width="480" height="223" fill="url(#body)"/>
+    <path d="M210 302 572 242 700 252v89c-67-1-102 29-145 16-31-9-56-8-93 14-38 25-83 8-120 7-50-3-92 25-132 13z" fill="url(#heated)"/>
+    <rect x="210" y="263" width="480" height="211" fill="url(#texture)"/>
+  </g>
+  <path d="M210 332c47 0 65-32 111-32 45 0 83 22 111 3 25-17 38-30 75-26 42 5 56 16 103-6 31-14 58-11 80-9v186c0 15-12 26-27 26H237c-15 0-27-11-27-26z" fill="none" stroke="#315770" stroke-width="4"/>
+  <text x="450" y="525" fill="#153347" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="700" text-anchor="middle">Composite response</text>
+</svg>

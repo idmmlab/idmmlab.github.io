@@ -3,9 +3,7 @@ layout: post
 date: 2026-10-20
 inline: false
 related_posts: false
-image: /assets/img/publication_preview/JMRT.jpg
-image_alt: Journal of Materials Research and Technology
-image_width: 180px
+paper_figure: park2026honeycomb
 ---
 
 Our paper _"Process–defect–property relationships in LPBF-fabricated

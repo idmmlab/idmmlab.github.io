@@ -3,9 +3,7 @@ layout: post
 date: 2026-08-30 01:30:00+0900
 inline: false
 related_posts: false
-image: /assets/img/publication_preview/ComposStruct.jpg
-image_alt: Composite Structures
-image_width: 180px
+paper_figure: eftekhari2026fgmplate
 ---
 
 Our paper _"A unified physics-based framework for vibration prediction
