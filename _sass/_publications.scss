@@ -75,12 +75,34 @@
   scroll-margin-top: 5rem;
 }
 
-@media (max-width: 575.98px) {
-  .publications .abbr:has(.publication-figure) {
-    flex: 0 0 100%;
-    max-width: 100%;
+.publication-figure-column,
+.publication-details-column {
+  flex: 0 0 100%;
+  min-width: 0;
+  padding-inline: 15px;
+}
+
+@media (min-width: 576px) {
+  .publication-figure-column {
+    flex-basis: 34%;
   }
 
+  .publication-details-column {
+    flex-basis: 66%;
+  }
+}
+
+@media (min-width: 992px) {
+  .publication-figure-column {
+    flex-basis: 42%;
+  }
+
+  .publication-details-column {
+    flex-basis: 58%;
+  }
+}
+
+@media (max-width: 575.98px) {
   .news table:has(.news-paper-figure) {
     table-layout: fixed;
     overflow-wrap: anywhere;
