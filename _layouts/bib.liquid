@@ -2,7 +2,7 @@
 ---
 <div class="row" id="{{ entry.key }}">
   {% if site.enable_publication_thumbnails %}
-    <div class="col {% if site.data.publication_figures[entry.key] %}col-sm-3{% else %}col-sm-2{% endif %} abbr">
+    <div class="col {% if site.data.publication_figures[entry.key] %}col-sm-4 col-lg-5{% else %}col-sm-2{% endif %} abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -49,7 +49,7 @@
 
   <!-- Publication details -->
   <div
-    class="{% if site.enable_publication_thumbnails and site.data.publication_figures[entry.key] %}col-sm-9{% elsif site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}"
+    class="{% if site.enable_publication_thumbnails and site.data.publication_figures[entry.key] %}col-sm-8 col-lg-7{% elsif site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}"
   >
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>

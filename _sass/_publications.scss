@@ -10,7 +10,7 @@
   img {
     display: block;
     width: 100%;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 4 / 3;
     object-fit: contain;
     background: white;
     border: 1px solid var(--global-divider-color);
@@ -26,7 +26,7 @@
 
 .news-paper-figure {
   float: right;
-  width: min(34%, 240px);
+  width: min(45%, 400px);
   margin: 0 0 0.75rem 1rem;
 }
 
@@ -45,7 +45,7 @@
 
   ol.bibliography {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 315px), 1fr));
     gap: 1rem;
     list-style: none;
     padding: 0;
@@ -78,12 +78,24 @@
 @media (max-width: 575.98px) {
   .publications .abbr:has(.publication-figure) {
     flex: 0 0 100%;
-    max-width: 260px;
+    max-width: 100%;
+  }
+
+  .news table:has(.news-paper-figure) {
+    table-layout: fixed;
+    overflow-wrap: anywhere;
+  }
+
+  .news-detail-img,
+  .news-detail-img-stack {
+    float: none !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
   }
 
   .news-paper-figure {
     float: none;
-    width: min(100%, 240px);
+    width: 100%;
     margin-left: 0;
   }
 }

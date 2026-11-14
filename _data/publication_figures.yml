@@ -1,112 +1,100 @@
-# Match the BibTeX key. Store a WebP with the same name, or set file for a different format.
+# Match the BibTeX key. Store a WebP with the same name, or set file to override it.
 xue2026aeroplastic:
-  label: Fig. 14
+  file: xue2026aeroplastic-boundary-conditions.webp
+  label: Boundary conditions (excerpt)
   credit: Wang et al.
-  alt: "Measured and simulated strain histories under transient thermal loading"
+  alt: "Simplified turbine disk model showing its hub, rim, and analysis boundary conditions"
   source: https://doi.org/10.1016/j.ast.2026.113159
 
 eftekhari2026fgmplate:
-  label: Fig. 4
   credit: Eftekhari et al.
   alt: "Physics-based workflow for predicting and reconstructing plate vibration"
   source: https://doi.org/10.1016/j.compstruct.2026.120841
 
 park2026honeycomb:
-  label: Fig. 2
+  file: park2026honeycomb-experimental-photos.webp
+  label: Experimental photographs (cropped)
   credit: Park et al.
-  alt: "Design, geometry and printed specimens of the LPBF honeycomb"
+  alt: "Photographs of nine LPBF-fabricated AlSi10Mg honeycomb specimens with their specimen labels"
   source: https://doi.org/10.1016/j.jmrt.2026.10.036
   license: by
 
 lee2026lpbfanisotropy:
-  label: Fig. 16
+  file: lee2026lpbfanisotropy-ca-simulation.webp
+  label: Cellular automaton simulation
   credit: Lee and Yun
-  alt: "Grain structures and stress–strain curves for additively manufactured titanium"
+  alt: "Cellular automaton simulation of Ti–6Al–4V solidification, with a 3D grain map, cross-sections, and grain statistics"
   source: https://doi.org/10.1080/17452759.2026.2666956
   license: by
 
 lee2026microlad:
-  label: Fig. 1
   credit: Lee and Ahmed
   alt: "MicroLad workflow for reconstruction and generation of 3D microstructures"
   source: https://doi.org/10.1016/j.cma.2025.118527
 
 jang2026cement:
-  label: Fig. 3
   credit: Jang et al.
   alt: "Microscopy and spectroscopy of carbon nanotube and hollow glass microsphere clusters"
   source: https://doi.org/10.1007/s42114-025-01581-x
   license: by-nc-nd
 
 park2025probabilistic:
-  label: Fig. 14
   credit: Park et al.
   alt: "Probabilistic process-window maps for laser powder bed fusion"
   source: https://doi.org/10.1016/j.jmapro.2025.10.051
 
 backiyaleela2025dft:
-  label: Fig. 1
   credit: Backiyaleela et al.
   alt: "Coordination models for single-metal sites in lithium–sulfur batteries"
   source: https://doi.org/10.1016/j.est.2025.118063
 
 chung2025ded:
-  label: Fig. 18
   credit: Chung et al.
   alt: "Simulated melt-pool temperature and flow in directed energy deposition"
   source: https://doi.org/10.1007/s12206-025-1029-0
 
 lee2024denoising3d:
-  label: Fig. 3
   credit: Lee and Yun
   alt: "Diffusion workflow for generating anisotropic 3D microstructures"
   source: https://doi.org/10.1016/j.cma.2024.116876
 
 lee2024datadriven:
-  label: Fig. 19
   credit: Lee et al.
   alt: "Microstructures generated for multifunctional composites"
   source: https://doi.org/10.1016/j.engappai.2023.107590
 
 lee2024multiplane:
-  label: Fig. 2
   credit: Lee and Yun
   alt: "Reconstructed 3D microstructures with spherical inclusions"
   source: https://doi.org/10.1038/s41524-024-01280-z
   license: by
 
 lee2024xgbheat:
-  label: Fig. 16
   credit: Lee et al.
   alt: "Simulated phase fractions in additively manufactured Ti–6Al–4V"
   source: https://doi.org/10.1016/j.jmapro.2024.01.044
 
 lee2024microreconstruct:
-  label: Fig. 1
   credit: Lee and Yun
   alt: "Schematic of the diffusion model for microstructure reconstruction"
   source: https://doi.org/10.1080/15376494.2023.2198528
 
 lee2023defect:
-  label: Fig. 10
   credit: Lee et al.
   alt: "3D convolutional network for detecting defects from in situ monitoring"
   source: https://doi.org/10.1016/j.optlastec.2023.109571
 
 you2023gdl:
-  label: Fig. 7
   credit: You et al.
   alt: "Condition-guided diffusion sampling for gas diffusion layer microstructures"
   source: https://doi.org/10.1080/15376494.2023.2286629
 
 lee2022support:
-  label: Fig. 16
   credit: Lee and Yun
   alt: "Beam specimens and thermally conductive support geometries"
   source: https://doi.org/10.1016/j.addma.2022.102627
 
 lee2021phasefield:
-  label: Fig. 12
   credit: Lee and Yun
   alt: "Von Mises stress fields from the selective laser melting model"
   source: https://doi.org/10.32604/cmc.2020.012688
@@ -127,7 +115,6 @@ park2021ablative:
   source: https://doi.org/10.12989/aas.2021.8.3.251
 
 lee2020heatsource:
-  label: Fig. 5
   credit: Lee and Yun
   alt: "Hybrid heat source diagram for selective laser melting"
   source: https://doi.org/10.1016/j.addma.2020.101497
