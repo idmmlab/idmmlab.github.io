@@ -3,7 +3,7 @@
 <div class="row" id="{{ entry.key }}">
   {% if site.enable_publication_thumbnails %}
     <div class="{% if site.data.publication_figures[entry.key] %}publication-figure-column{% else %}col col-sm-2{% endif %} abbr">
-      {%- if entry.abbr -%}
+      {%- if entry.abbr and site.data.publication_figures[entry.key] == null -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
           {% if site.data.venues[entry.abbr].color != blank %}
