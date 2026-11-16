@@ -15,7 +15,9 @@
           {% assign impact_factor_prefix = metric | slice: 0, 3 %}
           {% assign jcr_prefix = metric | slice: 0, 8 %}
           {% if impact_factor_prefix == 'IF ' or jcr_prefix == 'JCR Top ' %}
-            &middot; <strong>{{ metric | escape }}</strong>
+            <span class="text-nowrap"
+              >&middot; <strong>{{ metric | escape }}</strong></span
+            >
           {% endif %}
         {% endfor %}
       </div>
