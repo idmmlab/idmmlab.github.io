@@ -7,7 +7,18 @@
       <div class="home-paper-title">
         <a href="{{ '/publications/' | relative_url }}#{{ entry.key }}">{{ entry.title }}</a>
       </div>
-      <div class="home-paper-venue">{{ entry.journal }}</div>
+      <div class="home-paper-venue">
+        {{ entry.journal }}
+        {% assign note_parts = entry.note | strip_html | split: '&middot;' %}
+        {% for part in note_parts %}
+          {% assign metric = part | strip %}
+          {% assign impact_factor_prefix = metric | slice: 0, 3 %}
+          {% assign jcr_prefix = metric | slice: 0, 8 %}
+          {% if impact_factor_prefix == 'IF ' or jcr_prefix == 'JCR Top ' %}
+            &middot; <strong>{{ metric | escape }}</strong>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
   {% include publication_figure.liquid key=entry.key %}
