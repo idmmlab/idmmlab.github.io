@@ -124,10 +124,3 @@ lee2020heatsource:
   credit: Lee and Yun
   alt: "Hybrid heat source diagram for selective laser melting"
   source: https://doi.org/10.1016/j.addma.2020.101497
-
-lee2019coupling:
-  file: lee2019coupling.svg
-  label: Research illustration
-  credit: IDMM Lab
-  alt: "Research illustration of a stiffness-adjustable elastomer coupling between two shafts"
-  source: https://doi.org/10.1177/1045389X19862378
