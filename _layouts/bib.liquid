@@ -204,7 +204,7 @@
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
-      {% if entry.doi %}
+      {% if entry.doi != blank %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
@@ -216,19 +216,22 @@
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
-      {% if entry.html %}
+      {% if entry.html != blank %}
         {% if entry.html contains '://' %}
           <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
         {% else %}
           <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
         {% endif %}
       {% endif %}
-      {% if entry.pdf %}
-        {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        {% endif %}
+      {% if entry.pdf != blank %}
+        {% assign pdf_url = entry.pdf %}
+        {% unless pdf_url contains '://' %}
+          {% assign pdf_url = pdf_url | prepend: '/assets/pdf/' | relative_url %}
+        {% endunless %}
+        <a href="{{ pdf_url | escape }}" class="btn btn-sm z-depth-0" role="button">{{ entry.pdf_label | default: 'PDF' | escape }}</a>
+      {% endif %}
+      {% if entry.repository != blank %}
+        <a href="{{ entry.repository | escape }}" class="btn btn-sm z-depth-0" role="button">Author copy</a>
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
